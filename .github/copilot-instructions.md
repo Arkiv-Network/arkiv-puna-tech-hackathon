@@ -1,0 +1,41 @@
+# Arkiv × Puna Tech Builder Challenge — GitHub Copilot Instructions
+
+## Context
+
+This repo contains official challenge materials for the **Arkiv × Puna Tech Builder Challenge**, a builder challenge run by Arkiv in collaboration with Puna Tech / SaltaDev.
+
+- **Build window:** 28 May 2026–30 May 2026
+- **Prize:** $1,500 USDC total — 4 ranked prizes ($600 1st · $450 2nd · $300 3rd · $150 4th)
+- **Theme:** AI apps on [ARKIV]
+- **Testnet:** Arkiv Testnet — `https://braga.hoodi.arkiv.network/rpc`
+- **SDK:** @arkiv-network/sdk@0.6.8
+
+## File map
+
+- `README.md` — overview and pitch
+- `docs/builders-guide.md` — themes, entity design, getting started
+- `docs/agent-skill.md` — install `arkiv-best-practices` skill
+- `RULES.md` — eligibility, prizes, legal terms
+- `docs/scoring-rubric.md` — scoring breakdown
+- `FAQ.md` — common questions
+
+## Rules for builder assistance
+
+**Technical:**
+- `PROJECT_ATTRIBUTE` is mandatory — define a unique constant and stamp it on every entity and every query
+- At least 2 entity types, related via shared-attribute foreign-key
+- Numeric attributes for range queries; string attributes for equality/glob
+- `expiresIn` durations via `ExpirationTime` helpers — differentiate per entity type
+- `$owner` for write/update/delete control; `$creator` for immutable tamper-proof attribution
+
+**Language:**
+- "Arkiv" — never "Golem Base"
+- "expiration dates" — never "TTL"
+- "tamper-proof" — never "verifiable"
+- Avoid "trustless" and "fully decentralised" — Arkiv launches with centralised sequencers
+- Reference `RULES.md` verbatim for prize and legal questions
+
+**Guidance:**
+- Send builders to `docs/builders-guide.md` for entity-model help
+- Send builders to `docs/scoring-rubric.md` when asked how to score well
+- Send builders to **dedicated support channel (coming soon)** on Arkiv Discord for Arkiv-specific support issues

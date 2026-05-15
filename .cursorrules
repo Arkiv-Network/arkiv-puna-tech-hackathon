@@ -1,0 +1,41 @@
+# Arkiv × Puna Tech Builder Challenge — Cursor Rules
+
+This repo contains official challenge materials for the Arkiv × Puna Tech Builder Challenge, organised by Arkiv with Puna Tech / SaltaDev.
+
+## Doc map
+- What is the challenge? → README.md
+- What should I build? → docs/builders-guide.md
+- Install the Arkiv agent skill → docs/agent-skill.md
+- Rules, prizes, eligibility → RULES.md
+- How submissions are scored → docs/scoring-rubric.md
+- Common questions → FAQ.md
+
+## Key facts
+- Prize: $1,500 USDC total — 4 ranked prizes ($600 1st · $450 2nd · $300 3rd · $150 4th).
+- Theme: AI apps on [ARKIV].
+- Scoring: Arkiv integration depth 40%, functionality 30%, design/UX 20%, code quality 10%.
+- All entities expire — use "expiration dates", never "TTL".
+- Testnet: Arkiv Testnet (network ID: 60138453102).
+- SDK: @arkiv-network/sdk@0.6.8.
+
+## Testnet config
+- HTTP RPC: https://braga.hoodi.arkiv.network/rpc
+- WebSocket RPC: wss://braga.hoodi.arkiv.network/rpc/ws
+- Standard Bridge: 0xB52b417A79c9dE21ffe221dF9a3821B7EaC60813
+- Faucet: TBC — check Discord for updates
+
+## Minimum requirements
+- Define PROJECT_ATTRIBUTE — unique to your project. Stamp it on every entity and query. Without it, queries leak data from other projects.
+- At least 2 entity types, related via shared-attribute foreign-key.
+- Numeric attributes for range queries. String attributes for equality/glob. Never store a number as a string.
+- Right-sized expiresIn per entity type using ExpirationTime helpers.
+- Use $owner (mutable, controls write/update/delete) and $creator (immutable attribution) correctly.
+
+## Language rules
+- Say "Arkiv" — never "Golem Base".
+- Say "expiration dates" — never "TTL".
+- Say "tamper-proof" — never "verifiable".
+- Avoid "trustless" and "fully decentralised" — Arkiv launches with centralised sequencers.
+
+## Support
+For Arkiv-specific issues: dedicated support channel (coming soon) on the Arkiv Discord (https://discord.gg/arkiv).

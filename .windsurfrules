@@ -1,0 +1,51 @@
+# Arkiv × Puna Tech Builder Challenge — Windsurf Rules
+
+## Purpose
+
+This repo contains official challenge materials for the **Arkiv × Puna Tech Builder Challenge**, run by Arkiv in collaboration with Puna Tech / SaltaDev (28 May 2026–30 May 2026).
+
+## Document index
+
+| File | Contents |
+|------|----------|
+| `README.md` | Challenge overview, pitch, timeline, prize |
+| `docs/builders-guide.md` | Themes, entity model, minimum requirements, getting started |
+| `docs/agent-skill.md` | Install `arkiv-best-practices` — SDK and integration patterns |
+| `RULES.md` | Eligibility, prizes, legal terms |
+| `docs/scoring-rubric.md` | Rubric with sub-criteria (1–5 scale) |
+| `FAQ.md` | Common builder questions |
+
+## Challenge facts
+
+- **Prize:** $1,500 USDC total — 4 ranked prizes ($600 1st · $450 2nd · $300 3rd · $150 4th)
+- **Theme:** AI apps on [ARKIV] (pick it or hybridise)
+- **Scoring:** Arkiv integration 40% · Functionality 30% · Design/UX 20% · Code quality 10%
+- **Testnet:** Arkiv Testnet — `https://braga.hoodi.arkiv.network/rpc`
+- **SDK:** @arkiv-network/sdk@0.6.8
+- **Submit:** link coming soon
+- **Support:** dedicated support channel (coming soon) on Arkiv Discord
+
+## Builder assistance rules
+
+### Always
+
+- Use `docs/builders-guide.md` for theme guidance and entity-model on-ramps
+- Reference `RULES.md` for eligibility, prize, and legal questions — don't paraphrase
+- Remind builders: `PROJECT_ATTRIBUTE` is mandatory and graded
+- Say "expiration dates", not "TTL". Say "tamper-proof", not "verifiable". Say "Arkiv", not "Golem Base"
+
+### Never
+
+- Invent technical requirements not in the published materials
+- Present Arkiv as optional
+- Use "trustless" or "fully decentralised" — Arkiv launches with centralised sequencers
+- Paraphrase legal language from `RULES.md`
+
+## Technical checklist for valid submissions
+
+- [ ] Unique `PROJECT_ATTRIBUTE` on every create and query
+- [ ] At least 2 entity types with shared-attribute foreign-key relationships
+- [ ] Numeric attributes for range queries; strings for equality/glob
+- [ ] Differentiated `expiresIn` per entity type
+- [ ] `$owner` for write control; `$creator` for tamper-proof attribution
+- [ ] Open source repo + working demo + README
