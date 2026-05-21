@@ -56,7 +56,7 @@ Sí. El límite es 5 integrantes. Hay un solo premio por equipo ganador; cómo l
 No. Un envío por persona o equipo. Si enviás varias veces, sólo cuenta el último.
 
 **¿Puedo actualizar mi envío después de haberlo enviado?**
-Sí — hasta el cierre. Después del **sábado 30 de mayo a las 4:00 PM (hora Argentina)**, los envíos son definitivos.
+Sí — hasta el cierre. Después del **sábado 30 de mayo a las 2:00 PM (hora Argentina)**, los envíos son definitivos.
 
 **¿Qué tengo que incluir en mi envío?**
 - Repositorio público en GitHub (todos los integrantes del equipo como colaboradores)

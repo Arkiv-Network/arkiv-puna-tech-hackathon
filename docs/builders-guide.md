@@ -124,7 +124,7 @@ Los premios se pagan en cripto. **El KYC es obligatorio para todos los integrant
 
 ## Entrega
 
-**Fecha límite: sábado 30 de mayo, 4:00 PM (hora Argentina)**
+**Fecha límite: sábado 30 de mayo, 2:00 PM (hora Argentina)**
 
 | Entregable | Detalle |
 |------------|---------|

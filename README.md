@@ -58,7 +58,7 @@ Para más info, revisá la **[Guía para builders](docs/builders-guide.md)**.
 
 ## Cómo entregar
 
-Antes del **sábado 30 de mayo a las 4:00 PM (hora Argentina)**, completá los cuatro entregables:
+Antes del **sábado 30 de mayo a las 2:00 PM (hora Argentina)**, completá los cuatro entregables:
 
 1. **Repo público en GitHub** con todos los integrantes del equipo como colaboradores
 2. **Video público** (YouTube o Google Drive) mostrando el proyecto funcionando
