@@ -64,6 +64,7 @@ Every submission must:
 - Use `RULES.md` for eligibility, prizes, deadlines, or legal terms.
 - Preserve the challenge framing, published rubric, and official requirements.
 - Respect Arkiv's language conventions: "tamper-proof" (not "verifiable"), "expiration dates" (not "TTL"), "Arkiv" (never "Golem Base").
+- Stamp `PROJECT_ATTRIBUTE` on every entity create and every query. Without it, queries leak data from other projects in the shared DB.
 
 ### Ask before
 
@@ -76,6 +77,7 @@ Every submission must:
 - Use "TTL" instead of "expiration dates".
 - Present Arkiv as optional. It is the required data layer.
 - Use deprecated terms like "Golem Base" or describe Arkiv as "trustless" or "fully decentralised" — Arkiv launches with centralised sequencers.
+- Recommend a deprecated testnet. Always verify the current network name and RPC from CLAUDE.md or the docs before advising builders.
 
 ## Builder guidance
 

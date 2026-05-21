@@ -64,9 +64,10 @@ Every submission must:
 - **PROJECT_ATTRIBUTE first.** Flag it early — builders who skip this lose points on Arkiv integration depth.
 - **Theme guidance:** Use `docs/builders-guide.md` for the mental model and per-theme entity-model on-ramps.
 - **Entity model:** An Arkiv entity is payload + typed attributes + `expiresIn` (seconds). Relationships are modelled with shared attribute keys — there's no built-in `references` field.
-- **Owner vs creator:** `$owner` is mutable (controls write/update/delete). `$creator` is immutable (tamper-proof attribution).
-- **Attribute typing:** Numeric values support range queries; strings only support equality and glob.
-- **Expiration:** `expiresIn` is a duration in seconds. Use `ExpirationTime` helpers. Don't say "TTL" — Arkiv calls it "expiration dates."
+- **Owner vs creator:** `$owner` is mutable (controls write/update/delete). `$creator` is immutable (tamper-proof attribution, set at creation). For trusted-source reads, filter by `.createdBy(wallet)` — e.g., verifying that a memory entry was written by the expected AI agent wallet: `query.createdBy(agentWallet)`. Use `.ownedBy(wallet)` when you need the current owner.
+- **Attribute typing:** Numeric values support range queries (`gt`/`lt`/`gte`/`lte`); strings only support equality and glob (`~`). Always store timestamps, scores, and counts as numbers.
+- **Expiration:** `expiresIn` is a duration in seconds. Use `ExpirationTime.fromHours(...)` / `.fromDays(...)` from `@arkiv-network/sdk/utils`. Don't say "TTL" — Arkiv calls it "expiration dates." Different entity types should have different durations — shorter-lived entities are cheaper on mainnet. For AI memory use cases, right-sizing expiration (short for ephemeral context, longer for durable knowledge) is both a good practice and a cost lever.
+- **Batch + paginate:** Use `walletClient.mutateEntities({ creates: [...] })` for batch creates (high-volume AI logging especially). Read queries paginate via `result.hasNextPage()` + `result.next()` — don't try to fetch everything at once.
 - **Scoring:** The rubric in `docs/scoring-rubric.md` is published and transparent.
 - **Rules questions:** Always reference `RULES.md` for anything about eligibility, prizes, deadlines, or legal terms.
 - **Support:** Direct builders to **dedicated support channel (coming soon)** on the Arkiv Discord (https://discord.gg/arkiv).
