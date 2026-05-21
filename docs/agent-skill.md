@@ -1,31 +1,31 @@
-# Agent Skill — Arkiv × Puna Tech Builder Challenge
+# Skill de agente — [ ARKIV ] × Puna Tech Hackathon
 
-Speed up development by installing Arkiv's official agent skill into your AI coding assistant. It gives your agent instant knowledge of the SDK, best practices, and common integration patterns — useful especially in a short build window.
+Acelerá el desarrollo instalando el skill oficial de [ ARKIV ] en tu asistente de código con IA. Le da a tu agente conocimiento instantáneo del SDK, las mejores prácticas y los patrones de integración más comunes — especialmente útil en una ventana de construcción corta.
 
-## What is a skill?
+## ¿Qué es un skill?
 
-A **skill** is a set of instructions and domain knowledge that you install into your AI coding agent (Claude Code, Cursor, GitHub Copilot, Cline, Windsurf, etc.). Once installed, the agent can reference it automatically whenever you ask about the relevant topic — no copy-pasting docs into the chat.
+Un **skill** es un conjunto de instrucciones y conocimiento de dominio que instalás en tu agente de código con IA (Claude Code, Cursor, GitHub Copilot, Cline, Windsurf, etc.). Una vez instalado, el agente puede consultarlo automáticamente cada vez que le preguntás sobre el tema relevante — sin necesidad de copiar y pegar documentación en el chat.
 
-## The Arkiv skill
+## El skill de [ ARKIV ]
 
-Arkiv publishes an official skill called **arkiv-best-practices**. It teaches your agent:
+[ ARKIV ] publica un skill oficial llamado **arkiv-best-practices**. Le enseña a tu agente:
 
-- How the Arkiv SDK works (clients, queries, mutations, events)
-- Best practices (project attributes, security, data modelling, error handling)
-- Integration patterns (backend, React, wagmi)
-- Common pitfalls and how to avoid them
+- Cómo funciona el SDK de [ ARKIV ] (clientes, queries, mutations, eventos)
+- Mejores prácticas (atributos de proyecto, seguridad, modelado de datos, manejo de errores)
+- Patrones de integración (backend, React, wagmi)
+- Errores frecuentes y cómo evitarlos
 
-Install it in your project:
+Instalalo en tu proyecto:
 
 ```bash
 npx skills add https://github.com/arkiv-network/skills --skill arkiv-best-practices
 ```
 
-**Tip:** The skill is published on [skills.sh/arkiv-network/skills/arkiv-best-practices](https://skills.sh/arkiv-network/skills/arkiv-best-practices).
+**Tip:** El skill está publicado en [skills.sh/arkiv-network/skills/arkiv-best-practices](https://skills.sh/arkiv-network/skills/arkiv-best-practices).
 
-## What to try
+## Qué podés probar
 
-Once installed, open your AI agent and try prompts like:
+Una vez instalado, abrí tu agente de IA y probá prompts como:
 
 - *"Build a feature that lets users create and list posts stored on Arkiv"*
 - *"Audit my project — am I following Arkiv best practices?"*
@@ -33,20 +33,20 @@ Once installed, open your AI agent and try prompts like:
 
 ---
 
-## Reporting bugs and suggesting features
+## Reportar bugs y sugerir funcionalidades
 
-Arkiv also publishes an **arkiv-feedback** skill. It walks you through an interactive bug report or feature request form and files the result directly to the public [`Arkiv-Network/reported-issues`](https://github.com/Arkiv-Network/reported-issues) repo on GitHub.
+[ ARKIV ] también publica un skill llamado **arkiv-feedback**. Te guía a través de un formulario interactivo de reporte de bugs o solicitud de funcionalidades, y envía el resultado directamente al repositorio público [`Arkiv-Network/reported-issues`](https://github.com/Arkiv-Network/reported-issues) en GitHub.
 
-Install it alongside `arkiv-best-practices`:
+Instalalo junto con `arkiv-best-practices`:
 
 ```bash
 npx skills add https://github.com/arkiv-network/skills --skill arkiv-feedback
 ```
 
-Once installed, invoke it in your AI agent:
+Una vez instalado, invocalo en tu agente de IA:
 
 ```
 /arkiv-feedback
 ```
 
-The skill prompts you for the relevant details (what you expected, what happened, reproduction steps, SDK version), then opens or files the issue on your behalf. The Arkiv team monitors the repo throughout the build window.
+El skill te pide los detalles relevantes (qué esperabas, qué pasó, pasos para reproducirlo, versión del SDK), y luego abre o crea el issue en tu nombre. El equipo de [ ARKIV ] monitorea el repositorio durante toda la ventana de construcción.
