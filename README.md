@@ -1,21 +1,15 @@
-<!-- Anchor flagged as potentially broad — validar con SaltaDev antes de publicar -->
-> **El Hackathon se desarrolla del 28 al 30 de mayo de 2026.** Unite al [Discord](https://discord.gg/arkiv) → **canal de soporte dedicado (próximamente)**, y seguí [@arkiv_network](https://x.com/arkiv_network) para el kickoff.
+
+> **El Hackathon se desarrolla del 28 al 30 de mayo de 2026.** Unite al [Discord](https://discord.gg/arkiv), y seguí [@arkiv_network](https://x.com/arkiv_network) para el kickoff.
 
 # [ ARKIV ] × Puna Tech — Hackathon
 
----
-
-Nos sumamos al [Ideathon + Hackathon de Puna Tech / SaltaDev](https://www.punatech.ar/) con nuestra propia track. Cuatro premios — $600, $450, $300 y $150 USD — para los equipos mejor rankeados.
-
-> ⚠️ **Importante antes de arrancar:** los ganadores deberán completar un proceso de KYC (verificación de identidad) antes de recibir el premio. Esto implica enviar documentación de identidad. Preferimos decirte esto el día uno y no el día tres. Si no podés o no querés hacer KYC, tené eso en cuenta antes de participar.
+Nos sumamos a [PunaTech](https://www.punatech.ar/) con nuestra propia track. Cuatro premios — $600, $450, $300 y $150 USD — para los mejores proyectos.
 
 ---
 
 ## Track: Aplicaciones de IA sobre [ ARKIV ]
 
-Construí aplicaciones de IA que usen [ ARKIV ] como capa de datos — reemplazando las capas centralizadas que hoy frenan a los agentes de IA.
-
-Tres vertientes para orientarte (aunque no son las únicas):
+Construí aplicaciones de IA que usen [ ARKIV ] como capa de datos. Tres verticales para orientarte (aunque no son las únicas):
 
 - **Memoria de IA que es tuya** — memoria de agentes, historial de chat portable, contexto a prueba de manipulación que sobrevive entre apps.
 - **Procedencia y auditoría de IA** — registros consultables y a prueba de manipulación de lo que un modelo dijo o hizo (útil para periodismo, compliance, debate).
@@ -35,9 +29,9 @@ Para más info, revisá la **[Guía para builders](docs/builders-guide.md)**.
 
 **Lo menos obvio:**
 
-- Vas a shipear un producto real sobre una primitiva de datos que la mayoría de los desarrolladores todavía no tocó.
+- Vas a shipear un producto sobre una tecnología que la mayoría de los desarrolladores todavía no tocó.
 - El código es open source. Las mejores entregas se convierten en referencia para otros builders que construyan sobre [ ARKIV ].
-- Soporte del equipo de Arkiv durante todo el build. Unite al [Discord](https://discord.gg/arkiv) → **canal de soporte dedicado (próximamente)**.
+- Soporte del equipo de Arkiv durante todo el build. Unite al [Discord](https://discord.gg/arkiv)
 
 ---
 
@@ -46,20 +40,19 @@ Para más info, revisá la **[Guía para builders](docs/builders-guide.md)**.
 - Desarrolladores que puedan construir una aplicación web full-stack
 - Solo o en equipo (máx. 5 integrantes) — el premio es por equipo
 - Cualquier stack en el frontend. [ ARKIV ] es la capa de datos — vos elegís el resto
-- No necesitás conocer [ ARKIV ] de antemano. Los materiales de inicio y la documentación te llevan hasta donde necesitás llegar
+- No necesitás conocer [ ARKIV ] de antemano. Las guías y documentación te llevan hasta donde necesitás llegar
 
 ---
 
 ## Cronograma
 
-| Fecha | Qué pasa |
-| :---- | :---- |
-| **28 de mayo de 2026** | Abre el Hackathon / Kickoff de la track |
-| **30 de mayo de 2026, 4:00 PM (hora Argentina)** | **Cierre de entregas** ← esta es la fecha límite |
-| **30 de mayo de 2026 (tarde)** | Evaluación |
-| **30 de mayo de 2026 (tarde)** | Anuncio de ganadores |
+| Fecha                                            | Qué pasa                                         |
+| :----------------------------------------------- | :----------------------------------------------- |
+| **28 de mayo de 2026**                           | Abre el Hackathon / Kickoff de la track          |
+| **30 de mayo de 2026, 2:00 PM (hora Argentina)** | **Cierre de entregas** ← esta es la fecha límite |
+| **30 de mayo de 2026, 4:00 PM (hora Argentina)** | Anuncio de ganadores                             |
 
-*El organizador se reserva el derecho de ajustar estas fechas. Cualquier cambio se comunicará por Discord y canales oficiales. Ver [RULES.md](RULES.md) para los términos completos.*
+*Arkiv se reserva el derecho de ajustar estas fechas. Cualquier cambio se comunicará por Discord y canales oficiales. Ver [RULES.md](RULES.md) para los TyCs.*
 
 ---
 
@@ -69,14 +62,14 @@ Antes del **sábado 30 de mayo a las 4:00 PM (hora Argentina)**, completá los c
 
 1. **Repo público en GitHub** con todos los integrantes del equipo como colaboradores
 2. **Video público** (YouTube o Google Drive) mostrando el proyecto funcionando
-3. **Formulario de entrega** en [https://forms.arkiv.network/punatech26](https://forms.arkiv.network/punatech26)
+3. **Llená el form** en [https://forms.arkiv.network/punatech26](https://forms.arkiv.network/punatech26)
 4. **Pitch en español** (puede ser el video o una presentación por separado)
+
+> ⚠️ **Importante:** los ganadores deberán completar un proceso de KYC (verificación de identidad) antes de recibir el premio. Esto implica enviar documentación de identidad.
 
 ---
 
 ## Links rápidos
-
-### Entendé el Hackathon
 
 | Qué | Dónde |
 | :---- | :---- |

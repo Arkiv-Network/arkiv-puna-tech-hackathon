@@ -2,7 +2,7 @@
 
 ---
 
-> **Importante — KYC:** Los equipos ganadores deberán completar un proceso de verificación de identidad (KYC) antes de recibir el premio. Todos los integrantes del equipo ganador deben completarlo de forma individual. Leé la [Sección 7](#7-kyc-y-pago-de-premios) antes de inscribirte.
+> **Importante — KYC:** Los equipos ganadores deberán completar un proceso de verificación de identidad (KYC) antes de recibir el premio. Todos los integrantes del equipo ganador deben completarlo de forma individual. Leé la [Sección 7](#7-kyc-y-pago-de-premios) para mas información.
 
 ---
 
