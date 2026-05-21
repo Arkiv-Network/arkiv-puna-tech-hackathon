@@ -1,10 +1,10 @@
-# AGENTS.md — Arkiv × Puna Tech Builder Challenge
+# AGENTS.md — Arkiv × Puna Tech Hackathon
 
-Apply the root `AGENTS.md` first. This file adds challenge-specific context and constraints.
+Apply the root `AGENTS.md` first. This file adds hackathon-specific context and constraints.
 
 ## Purpose
 
-This repo contains the official rules, guides, and resources for the Arkiv × Puna Tech Builder Challenge: organised by Arkiv with Puna Tech / SaltaDev, 28 May 2026–30 May 2026. The top 4 ranked submissions receive prizes totalling $1,500 USDC.
+This repo contains the official rules, guides, and resources for the Arkiv × Puna Tech Hackathon: a hackathon track run by Arkiv at PunaTech, organised with Puna Tech / SaltaDev, 28 May 2026–30 May 2026. The top 4 ranked submissions receive prizes totalling $1,500 USD.
 
 ## Use these files
 

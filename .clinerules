@@ -1,8 +1,8 @@
-# Arkiv × Puna Tech Builder Challenge — Cline Rules
+# Arkiv × Puna Tech Hackathon — Cline Rules
 
 ## What is this repo?
 
-Official rules, guides, and resources for the Arkiv × Puna Tech Builder Challenge — a builder challenge run by Arkiv with Puna Tech / SaltaDev, 28 May 2026–30 May 2026.
+Official rules, guides, and resources for the Arkiv × Puna Tech Hackathon — a hackathon track run by Arkiv at PunaTech with Puna Tech / SaltaDev, 28 May 2026–30 May 2026.
 
 ## File map
 
@@ -15,7 +15,7 @@ Official rules, guides, and resources for the Arkiv × Puna Tech Builder Challen
 
 ## Essential facts
 
-- Prize: $1,500 USDC total — 4 ranked prizes ($600 1st · $450 2nd · $300 3rd · $150 4th)
+- Prize: $1,500 USD total — 4 ranked prizes ($600 1st · $450 2nd · $300 3rd · $150 4th)
 - Theme: AI apps on [ARKIV]
 - Use Arkiv Testnet — HTTP RPC `https://braga.hoodi.arkiv.network/rpc`
 - SDK: @arkiv-network/sdk@0.6.8

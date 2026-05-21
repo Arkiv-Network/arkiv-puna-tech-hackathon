@@ -1,6 +1,6 @@
-# Arkiv × Puna Tech Builder Challenge — Cursor Rules
+# Arkiv × Puna Tech Hackathon — Cursor Rules
 
-This repo contains official challenge materials for the Arkiv × Puna Tech Builder Challenge, organised by Arkiv with Puna Tech / SaltaDev.
+This repo contains official hackathon materials for the Arkiv × Puna Tech Hackathon, a hackathon track run by Arkiv at PunaTech in collaboration with Puna Tech / SaltaDev.
 
 ## Doc map
 - What is the challenge? → README.md
@@ -11,7 +11,7 @@ This repo contains official challenge materials for the Arkiv × Puna Tech Build
 - Common questions → FAQ.md
 
 ## Key facts
-- Prize: $1,500 USDC total — 4 ranked prizes ($600 1st · $450 2nd · $300 3rd · $150 4th).
+- Prize: $1,500 USD total — 4 ranked prizes ($600 1st · $450 2nd · $300 3rd · $150 4th).
 - Theme: AI apps on [ARKIV].
 - Scoring: Arkiv integration depth 40%, functionality 30%, design/UX 20%, code quality 10%.
 - All entities expire — use "expiration dates", never "TTL".

@@ -1,11 +1,11 @@
-# Arkiv × Puna Tech Builder Challenge — GitHub Copilot Instructions
+# Arkiv × Puna Tech Hackathon — GitHub Copilot Instructions
 
 ## Context
 
-This repo contains official challenge materials for the **Arkiv × Puna Tech Builder Challenge**, a builder challenge run by Arkiv in collaboration with Puna Tech / SaltaDev.
+This repo contains official hackathon materials for the **Arkiv × Puna Tech Hackathon**, a hackathon track run by Arkiv at PunaTech in collaboration with Puna Tech / SaltaDev.
 
 - **Build window:** 28 May 2026–30 May 2026
-- **Prize:** $1,500 USDC total — 4 ranked prizes ($600 1st · $450 2nd · $300 3rd · $150 4th)
+- **Prize:** $1,500 USD total — 4 ranked prizes ($600 1st · $450 2nd · $300 3rd · $150 4th)
 - **Theme:** AI apps on [ARKIV]
 - **Testnet:** Arkiv Testnet — `https://braga.hoodi.arkiv.network/rpc`
 - **SDK:** @arkiv-network/sdk@0.6.8

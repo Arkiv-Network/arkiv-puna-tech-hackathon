@@ -1,10 +1,10 @@
-# Arkiv × Puna Tech Builder Challenge — AI Agent Context
+# Arkiv × Puna Tech Hackathon — AI Agent Context
 
-This file provides context for AI coding assistants (Claude Code, Cursor, Copilot, Windsurf, Cline, etc.) working with builders participating in the Arkiv × Puna Tech Builder Challenge.
+This file provides context for AI coding assistants (Claude Code, Cursor, Copilot, Windsurf, Cline, etc.) working with builders participating in the Arkiv × Puna Tech Hackathon.
 
 ## What is this repo?
 
-The official rules, guides, and resources for the **Arkiv × Puna Tech Builder Challenge** — organised by Arkiv with Puna Tech / SaltaDev. The top 4 ranked submissions receive prizes totalling $1,500 USDC.
+The official rules, guides, and resources for the **Arkiv × Puna Tech Hackathon** — a hackathon track run by Arkiv at PunaTech, organised with Puna Tech / SaltaDev. The top 4 ranked submissions receive prizes totalling $1,500 USD.
 
 ## Doc map
 
