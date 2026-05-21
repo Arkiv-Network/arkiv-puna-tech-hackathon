@@ -85,6 +85,7 @@ Antes del **sábado 30 de mayo a las 4:00 PM (hora Argentina)**, completá los c
 | :---- | :---- |
 | **Docs de Arkiv** | [docs.arkiv.network](https://docs.arkiv.network) |
 | **TypeScript SDK** | [Getting started](https://docs.arkiv.network/start-here/fundamentals/) |
+| **Data Explorer** | [data.arkiv.network](https://data.arkiv.network/) — inspeccioná tus entidades y probá queries en el navegador ([docs](https://docs.arkiv.network/start-here/data-explorer/)). En Beta. |
 
 ### Entregá y conseguí ayuda
 
