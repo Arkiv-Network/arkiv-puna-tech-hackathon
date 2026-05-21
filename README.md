@@ -1,88 +1,105 @@
-<!-- Anchor flagged as potentially broad — validate with SaltaDev before publishing -->
-> **Challenge runs 28 May 2026–30 May 2026.** Join the [Discord](https://discord.gg/arkiv) → **dedicated support channel (coming soon)**, and follow [@arkiv_network](https://x.com/arkiv_network) for kickoff.
+<!-- Anchor flagged as potentially broad — validar con SaltaDev antes de publicar -->
+> **El Hackathon se desarrolla del 28 al 30 de mayo de 2026.** Unite al [Discord](https://discord.gg/arkiv) → **canal de soporte dedicado (próximamente)**, y seguí [@arkiv_network](https://x.com/arkiv_network) para el kickoff.
 
-# Arkiv × Puna Tech Builder Challenge
-
----
-
-We're partnering with [Puna Tech / SaltaDev](https://www.punatech.ar/) to bring a Builder Challenge with us. Four prizes — $600, $450, $300, and $150 USDC — for the top-ranked teams.
+# [ ARKIV ] × Puna Tech — Hackathon
 
 ---
 
-## Pick Your Theme
+Nos sumamos al [Ideathon + Hackathon de Puna Tech / SaltaDev](https://www.punatech.ar/) con nuestra propia track. Cuatro premios — $600, $450, $300 y $150 USD — para los equipos mejor rankeados.
 
-| Theme | Build | The hook |
-| :---- | :---- | :---- |
-| **AI apps on [ARKIV]** | Build AI applications that use Arkiv as their data layer | you're replacing centralised data layers for AI agents |
-
-Pick one or mix them up! All themes will be scored on the same rubric — there's no advantage to picking one over another. Go with whatever excites you.
-
-For more information on the themes, check out our **[Builder's Guide](docs/builders-guide.md)**.
+> ⚠️ **Importante antes de arrancar:** los ganadores deberán completar un proceso de KYC (verificación de identidad) antes de recibir el premio. Esto implica enviar documentación de identidad. Preferimos decirte esto el día uno y no el día tres. Si no podés o no querés hacer KYC, tené eso en cuenta antes de participar.
 
 ---
 
-## What's in it for you
+## Track: Aplicaciones de IA sobre [ ARKIV ]
 
-**The obvious:**
+Construí aplicaciones de IA que usen [ ARKIV ] como capa de datos — reemplazando las capas centralizadas que hoy frenan a los agentes de IA.
 
-- **4 prizes** — $600 USDC (1st), $450 USDC (2nd), $300 USDC (3rd), $150 USDC (4th).
+Tres vertientes para orientarte (aunque no son las únicas):
 
-**The less obvious:**
+- **Memoria de IA que es tuya** — memoria de agentes, historial de chat portable, contexto a prueba de manipulación que sobrevive entre apps.
+- **Procedencia y auditoría de IA** — registros consultables y a prueba de manipulación de lo que un modelo dijo o hizo (útil para periodismo, compliance, debate).
+- **Capas de datos personales para IA** — perfiles y preferencias propiedad del usuario que cualquier app de IA puede leer con permiso explícito.
 
-- Ship a working product on a data layer most developers haven't touched yet.
-- Code is open source. The best submissions become a reference for other builders working on Arkiv.
-- Support from the Arkiv team throughout the build window. Join our [Discord](https://discord.gg/arkiv) → **dedicated support channel (coming soon)**.
+¿Tu idea no encaja exacto en estas tres? Si combina IA con datos, queremos verla.
 
----
-
-## Who this is for
-
-- Developers who can build a full-stack web application
-- Solo or team (max 5), prize stays the same per winning team
-- Any stack on the frontend. Arkiv is the data layer — you pick everything else
-- You don't need to know Arkiv beforehand. The starter materials and docs will get you there
+Para más info, revisá la **[Guía para builders](docs/builders-guide.md)**.
 
 ---
 
-## Timeline
+## Qué ganás
 
-| Date | What |
+**Lo obvio:**
+
+- **4 premios** — $600 USD (1°), $450 USD (2°), $300 USD (3°), $150 USD (4°).
+
+**Lo menos obvio:**
+
+- Vas a shipear un producto real sobre una primitiva de datos que la mayoría de los desarrolladores todavía no tocó.
+- El código es open source. Las mejores entregas se convierten en referencia para otros builders que construyan sobre [ ARKIV ].
+- Soporte del equipo de Arkiv durante todo el build. Unite al [Discord](https://discord.gg/arkiv) → **canal de soporte dedicado (próximamente)**.
+
+---
+
+## Para quién es esto
+
+- Desarrolladores que puedan construir una aplicación web full-stack
+- Solo o en equipo (máx. 5 integrantes) — el premio es por equipo
+- Cualquier stack en el frontend. [ ARKIV ] es la capa de datos — vos elegís el resto
+- No necesitás conocer [ ARKIV ] de antemano. Los materiales de inicio y la documentación te llevan hasta donde necesitás llegar
+
+---
+
+## Cronograma
+
+| Fecha | Qué pasa |
 | :---- | :---- |
-| **28 May 2026** | Submissions open / Challenge kickstart |
-| **30 May 2026** | Submissions close (23:59 UTC) |
-| **30 May 2026 (afternoon)** | Judging |
-| **30 May 2026 (afternoon)** | Winners announced |
+| **28 de mayo de 2026** | Abre el Hackathon / Kickoff de la track |
+| **30 de mayo de 2026, 4:00 PM (hora Argentina)** | **Cierre de entregas** ← esta es la fecha límite |
+| **30 de mayo de 2026 (tarde)** | Evaluación |
+| **30 de mayo de 2026 (tarde)** | Anuncio de ganadores |
 
-*The Organiser reserves the right to adjust these dates. Any changes will be communicated via Discord and official channels. See [RULES.md](RULES.md) for full terms.*
+*El organizador se reserva el derecho de ajustar estas fechas. Cualquier cambio se comunicará por Discord y canales oficiales. Ver [RULES.md](RULES.md) para los términos completos.*
 
 ---
 
-## Quick Links
+## Cómo entregar
 
-### Understand the Challenge
+Antes del **sábado 30 de mayo a las 4:00 PM (hora Argentina)**, completá los cuatro entregables:
 
-| What | Where |
+1. **Repo público en GitHub** con todos los integrantes del equipo como colaboradores
+2. **Video público** (YouTube o Google Drive) mostrando el proyecto funcionando
+3. **Formulario de entrega** en [https://forms.arkiv.network/punatech26](https://forms.arkiv.network/punatech26)
+4. **Pitch en español** (puede ser el video o una presentación por separado)
+
+---
+
+## Links rápidos
+
+### Entendé el Hackathon
+
+| Qué | Dónde |
 | :---- | :---- |
-| **Builder's Guide** | [docs/builders-guide.md](docs/builders-guide.md) — themes, requirements, getting started |
-| **Official Rules** | [RULES.md](RULES.md) — terms, prizes, eligibility |
-| **Scoring Rubric** | [docs/scoring-rubric.md](docs/scoring-rubric.md) — how we score, what we look for |
-| **FAQ** | [FAQ.md](FAQ.md) — common questions answered |
-| **Agent Skill** | [docs/agent-skill.md](docs/agent-skill.md) — install `arkiv-best-practices` so your AI assistant knows the SDK |
+| **Guía para builders** | [docs/builders-guide.md](docs/builders-guide.md) — track, requisitos, cómo arrancar |
+| **Reglas oficiales** | [RULES.md](RULES.md) — términos, premios, elegibilidad |
+| **Rubric de evaluación** | [docs/scoring-rubric.md](docs/scoring-rubric.md) — cómo puntuamos, qué buscamos |
+| **FAQ** | [FAQ.md](FAQ.md) — preguntas frecuentes |
+| **Agent Skill** | [docs/agent-skill.md](docs/agent-skill.md) — instalá `arkiv-best-practices` para que tu asistente de IA conozca el SDK |
 
-### Start Building
+### Empezá a construir
 
-| What | Where |
+| Qué | Dónde |
 | :---- | :---- |
-| **Arkiv Docs** | [docs.arkiv.network](https://docs.arkiv.network) |
+| **Docs de Arkiv** | [docs.arkiv.network](https://docs.arkiv.network) |
 | **TypeScript SDK** | [Getting started](https://docs.arkiv.network/start-here/fundamentals/) |
 
-### Submit & Get Help
+### Entregá y conseguí ayuda
 
-| What | Where |
+| Qué | Dónde |
 | :---- | :---- |
-| **Submit** | [Submission form — link coming soon]() |
-| **Discord** | [Join our server](https://discord.gg/arkiv) → **dedicated support channel (coming soon)** |
+| **Formulario de entrega** | [https://forms.arkiv.network/punatech26](https://forms.arkiv.network/punatech26) |
+| **Discord** | [Uníte al servidor](https://discord.gg/arkiv) → **canal de soporte dedicado (próximamente)** |
 
 ---
 
-*This is not a contest for the biggest team or the prettiest mockup. It's a builders challenge. Ship something real on a new data primitive. The best work speaks for itself.*
+*Este no es un concurso para el equipo más grande ni para la maqueta más linda. Es un Hackathon. Shipeá algo real sobre una nueva primitiva de datos. El mejor trabajo habla por sí solo.*

@@ -1,150 +1,165 @@
-# Arkiv × Puna Tech Builder Challenge — Builder's Guide
+# [ ARKIV ] × PunaTech 2026 — Guía para participantes
 
 ---
 
-## What you're building
+## ¿Qué vas a construir?
 
-A **web3-native application** where all data lives on Arkiv. Users own their data — not the platform.
+Una **aplicación Web3** donde todos los datos viven en [ ARKIV ]. Los usuarios son dueños de sus propios datos — no la plataforma.
 
-Pick the approved theme:
+El track es **Aplicaciones de IA sobre [ ARKIV ]**. La idea es simple: reemplazás las capas de datos centralizadas que usan los agentes de IA y las apps de IA por [ ARKIV ] — una base de datos Web3 a prueba de manipulación, alineada con Ethereum.
 
-| Theme | The pitch | The hook |
-|-------|-----------|---------|
-| **AI apps on [ARKIV]** | Build AI applications that use Arkiv as their data layer | you're replacing centralised data layers for AI agents |
+Tres vertientes de ejemplo para orientarte (pero no son las únicas):
 
-**Go with whatever excites you.**
+| Vertical | De qué se trata |
+|----------|-----------------|
+| **Memoria de IA que es tuya** | Agentes de IA que almacenan su contexto y memoria en [ ARKIV ] — datos que le pertenecen al usuario, no a la plataforma |
+| **Procedencia y auditoría de IA** | Registros a prueba de manipulación de decisiones, outputs o cadenas de razonamiento de modelos de IA |
+| **Capas de datos personales para IA** | Perfiles, preferencias o historial controlados por el usuario que las apps de IA leen con permiso |
 
----
+¿Tenés otra idea con IA y datos? Si usa [ ARKIV ] como capa de datos, entra.
 
-## How Arkiv works (60-second mental model)
-
-### 1. Entities = payload + typed attributes + `expiresIn`
-
-Every Arkiv entity has:
-
-- **Payload** — the actual data (JSON, text, or bytes). Stored as-is.
-- **Attributes** — typed key-value pairs. **This is your index.** Filtering, sorting, and lookups happen against attributes, not the payload.
-- **`expiresIn`** — a **duration in seconds** set at creation.
-
-### 2. Attributes have types — pick the right one
-
-- **String attributes** support equality and glob matching (`~`). Use for tags, statuses, names, identifiers.
-- **Numeric attributes** support range queries (`gt`, `lt`, `gte`, `lte`). Use for any value you'll filter or sort by range — timestamps, scores, counts.
-
-If you store `priority` as the string `"5"`, you lose range queries. Always store numerics as numbers.
-
-### 3. Relationships are shared attribute keys
-
-There is no built-in foreign-key field. To link entities, use a shared attribute key with the parent's entity key as the value (e.g., `{ key: "agentKey", value: agentEntityKey }`). Querying children of a parent is then a single `where(eq(...))`.
-
-### 4. Two metadata fields matter: `$owner` and `$creator`
-
-- **`$owner`** — the wallet that currently controls the entity. Mutable. Only the owner can update or delete.
-- **`$creator`** — the wallet that originally created the entity. **Immutable** — cannot be spoofed.
+**Construí lo que te entusiasme.**
 
 ---
 
-## Best practice: PROJECT_ATTRIBUTE
+## Cómo funciona [ ARKIV ] (modelo mental en 60 segundos)
 
-**Arkiv is a shared, public database.** Every entity from every project lives in the same store. Without a project namespace, your queries return everyone else's data.
+### 1. Entidades = payload + atributos tipados + `expiresIn`
 
-Every Arkiv project must:
+Cada entidad de [ ARKIV ] tiene:
 
-1. Define a unique `PROJECT_ATTRIBUTE` constant (e.g., `lib/arkiv.ts`).
-2. Stamp it on **every** create and update call.
-3. Filter on it in **every** query.
+- **Payload** — el dato en sí (JSON, texto o bytes). Se almacena tal cual.
+- **Atributos** — pares clave-valor tipados. **Este es tu índice.** Todos los filtros, ordenamientos y búsquedas se hacen sobre atributos, no sobre el payload.
+- **`expiresIn`** — una **duración en segundos** que se define al crear la entidad.
+
+### 2. Los atributos tienen tipos — elegí bien
+
+- **Atributos de texto** soportan igualdad y matching con glob (`~`). Usalos para etiquetas, estados, nombres, identificadores.
+- **Atributos numéricos** soportan rangos (`gt`, `lt`, `gte`, `lte`). Usalos para cualquier valor que vayas a filtrar o ordenar por rango — timestamps, scores, contadores.
+
+Si guardás `priority` como el string `"5"`, perdés las consultas de rango. Siempre almacená numéricos como números.
+
+### 3. Las relaciones son atributos compartidos
+
+No hay un campo de foreign key incorporado. Para vincular entidades, usá una clave de atributo compartida con el entity key del padre como valor (p. ej., `{ key: "agentKey", value: agentEntityKey }`). Consultar los hijos de un padre es entonces un único `where(eq(...))`.
+
+### 4. Dos campos de metadatos importantes: `$owner` y `$creator`
+
+- **`$owner`** — la wallet que controla la entidad. Es mutable. Solo el owner puede actualizar o eliminar.
+- **`$creator`** — la wallet que creó la entidad originalmente. **Inmutable** — no se puede falsificar.
+
+---
+
+## Buena práctica: PROJECT_ATTRIBUTE
+
+**[ ARKIV ] es una base de datos pública y compartida.** Todas las entidades de todos los proyectos viven en el mismo store. Sin un namespace de proyecto, tus queries devuelven datos de todo el mundo.
+
+Todo proyecto en [ ARKIV ] debe:
+
+1. Definir una constante `PROJECT_ATTRIBUTE` única (p. ej., en `lib/arkiv.ts`).
+2. Estamparla en **cada** llamada de creación y actualización.
+3. Filtrar por ella en **cada** query.
 
 ```typescript
 // lib/arkiv.ts
 export const PROJECT_ATTRIBUTE = {
   key: "project",
-  value: "myteam-arkiv-puna-tech-builder-challenge-7x9k",  // globally unique to your project
+  value: "miequipo-arkiv-punatech26-7x9k",  // único globalmente para tu proyecto
 } as const;
 ```
 
-This is graded.
+Esto se evalúa. No te lo saltés.
 
 ---
 
-## Minimum requirements (all themes)
+## Requisitos mínimos
 
-- [ ] Define and use a unique `PROJECT_ATTRIBUTE` on every entity and every query
-- [ ] At least 2 entity types
-- [ ] Wallet-based ownership (creators own their data)
-- [ ] Queryable attributes used for filtering or search
-- [ ] Rational expiration dates on entities (see [A note on expiration](#a-note-on-expiration) below)
-- [ ] Public read access (no wallet needed to browse)
-- [ ] Open source GitHub repo
-- [ ] Working demo link
-- [ ] README with setup instructions
-
----
-
-## Theme: AI apps on [ARKIV]
-
-*Build AI applications that use Arkiv as their data layer*
-
-TBC — to be filled in with partner before publishing
-
-### Things worth thinking through
-
-TBC — to be filled in with partner before publishing
-
-### Directions to push it further
-
-TBC — to be filled in with partner before publishing
+- [ ] Definí y usá un `PROJECT_ATTRIBUTE` único en cada entidad y cada query
+- [ ] Al menos 2 tipos de entidades
+- [ ] Ownership basado en wallet (los creadores son dueños de sus datos)
+- [ ] Atributos consultables usados para filtrar o buscar
+- [ ] Fechas de expiración con criterio en las entidades (ver [Una nota sobre la expiración](#una-nota-sobre-la-expiración) más abajo)
+- [ ] Lectura pública (sin wallet para navegar)
+- [ ] Repo GitHub público con todos los integrantes del equipo como colaboradores
+- [ ] Demo funcional conectada al Testnet de [ ARKIV ]
+- [ ] README con instrucciones de setup
 
 ---
 
-## A note on expiration
+## Una nota sobre la expiración
 
-All Arkiv entities have an expiration date — this is core to how Arkiv works, not an optional feature. On testnet, expiration has no cost implications. On mainnet, shorter-lived entities are cheaper. Choose expiration dates thoughtfully: different entity types should have different durations reflecting real product logic. That intentionality is what scores well on Arkiv integration depth.
+Todas las entidades de [ ARKIV ] tienen fechas de expiración — esto es central en cómo funciona [ ARKIV ], no una feature opcional. En testnet, la expiración no tiene implicaciones de costo. En mainnet, las entidades de vida más corta son más baratas. Elegí las fechas de expiración con criterio: distintos tipos de entidades deberían tener duraciones distintas que reflejen lógica de producto real. Esa intencionalidad es lo que suma puntos en la evaluación de integración con [ ARKIV ].
 
 ---
 
-## Getting started
+## ⚠️ KYC obligatorio para cobrar el premio
 
-1. **Pick your theme**
-2. **Read the Arkiv docs** — [docs.arkiv.network](https://docs.arkiv.network)
-3. **Install the Arkiv agent skill** — [docs/agent-skill.md](agent-skill.md) — front-loads SDK knowledge into your AI coding assistant
-4. **Set up your `PROJECT_ATTRIBUTE`** before writing any entity code
-5. **Connect to Arkiv Testnet:**
+Para recibir el pago del premio, **todos los integrantes del equipo ganador deben completar el proceso de KYC (verificación de identidad)**. Sin KYC completado, el pago no puede procesarse. Tené el documento a mano — te lo pedimos apenas se anuncien los ganadores.
 
-   | Setting | Value |
-   |---------|-------|
+---
+
+## Premios
+
+| Posición | Premio |
+|----------|--------|
+| 1° lugar | USD 600 |
+| 2° lugar | USD 450 |
+| 3° lugar | USD 300 |
+| 4° lugar | USD 150 |
+
+Los premios se pagan en cripto. **El KYC es obligatorio para todos los integrantes del equipo que cobren el premio.**
+
+---
+
+## Para empezar
+
+1. **Elegí tu idea** dentro del track de IA sobre [ ARKIV ]
+2. **Leé la documentación de [ ARKIV ]** — [docs.arkiv.network](https://docs.arkiv.network)
+3. **Instalá el agent skill de [ ARKIV ]** — [docs/agent-skill.md](agent-skill.md) — carga el conocimiento del SDK en tu asistente de IA para que entienda [ ARKIV ] desde el primer prompt
+4. **Configurá tu `PROJECT_ATTRIBUTE`** antes de escribir cualquier código de entidades
+5. **Conectate al Testnet de [ ARKIV ]:**
+
+   | Configuración | Valor |
+   |---------------|-------|
    | Network ID | `60138453102` |
    | RPC (HTTP) | `https://braga.hoodi.arkiv.network/rpc` |
    | RPC (WebSocket) | `wss://braga.hoodi.arkiv.network/rpc/ws` |
    | Bridge contract | `0xB52b417A79c9dE21ffe221dF9a3821B7EaC60813` |
-   | Faucet | TBC — check Discord for updates |
+   | Faucet | TBC — revisá Discord para actualizaciones |
 
-6. **Install the SDK:**
+6. **Instalá el SDK:**
 
    ```bash
    npm install @arkiv-network/sdk@0.6.8
    ```
 
-7. **Get create + read + query working for one entity type first** — then add relationships, then more types
-8. **Join the Discord support channel** — **dedicated support channel (coming soon)** on the [Arkiv Discord](https://discord.gg/arkiv)
+7. **Hacé funcionar crear + leer + consultar para un tipo de entidad primero** — después agregás relaciones y más tipos
+8. **Unite al canal de Discord** — **canal de soporte dedicado (próximamente)** en el [Discord de Arkiv](https://discord.gg/arkiv)
+
+Flujo simple: cloná un ejemplo, conectá tu key, definí tu `PROJECT_ATTRIBUTE`, construí.
 
 ---
 
-## Submission requirements
+## Entrega
 
-| What | Details |
-|------|---------|
-| **Theme** | State which theme your submission addresses |
-| **GitHub repo** | Public, open source, README with setup instructions |
-| **Demo link** | Working deployment connected to Arkiv Testnet |
-| **Demo video** | Optional at submission, required for prize claim (2–3 min walkthrough) |
-| **Team info** | Names, GitHub handles, wallet address for prize |
+**Fecha límite: sábado 30 de mayo, 4:00 PM (hora Argentina)**
 
-**Submit here:** [Submission form — link coming soon]()
+| Entregable | Detalle |
+|------------|---------|
+| **Repo GitHub** | Público, open source, README con instrucciones de setup. Todos los integrantes del equipo deben figurar como colaboradores. |
+| **Video demo** | Público (YouTube o Google Drive). Walkthrough de 2–3 minutos. |
+| **Formulario** | Completá el formulario en `https://forms.arkiv.network/punatech26` |
+| **Pitch** | En español, el día del evento |
+| **Info del equipo** | Nombres, handles de GitHub, wallet address para el premio |
+
+**Entregá acá: [https://forms.arkiv.network/punatech26](https://forms.arkiv.network/punatech26)**
+
+Recordá: **KYC obligatorio para todos los integrantes que cobren el premio.** Apenas se anuncien los ganadores te pedimos la verificación — tenerla lista acelera el pago.
 
 ---
 
-## Questions?
+## ¿Preguntas?
 
-Join our [Discord](https://discord.gg/arkiv) → **dedicated support channel (coming soon)**. The Arkiv team is on call daily during the build window.
+Unite al [Discord de Arkiv](https://discord.gg/arkiv) → **canal de soporte dedicado (próximamente)**. El equipo de Arkiv está disponible todos los días durante el hackathon.
 
-Don't struggle alone. If you're stuck on an Arkiv integration issue, ask.
+No te tragues los bloqueos. Si estás trabado con alguna integración de [ ARKIV ], preguntá.

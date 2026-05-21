@@ -1,138 +1,147 @@
-# Arkiv × Puna Tech Builder Challenge — FAQ
+# [ ARKIV ] × PunaTech 2026 — Preguntas frecuentes
 
 ---
 
 ### General
 
-**What is the Arkiv × Puna Tech Builder Challenge?**
-An invitation to build a web3-native application using Arkiv as the data layer, in collaboration with Puna Tech / SaltaDev. Pick the approved theme. The top 4 ranked submissions receive prizes totalling $1,500 USDC.
+**¿Qué es el Hackathon de [ ARKIV ] en PunaTech 2026?**
+Una invitación a crear aplicaciones usando [ ARKIV ] como capa de datos, en el marco del Ideathon + Hackathon de PunaTech 2026 en Salta, del 28 al 30 de mayo. Los 4 mejores proyectos reciben premios por un total de $1.500 USD.
 
-**Who can participate?**
-Anyone 18+, anywhere in the world. Solo or team (max 5).
+**¿Quién puede participar?**
+Cualquier persona mayor de 18 años. Solo o en equipo (máximo 5 integrantes).
 
-**Do I need to know Arkiv beforehand?**
-No. The challenge materials and docs will get you there. The Discord support channel is active throughout the build window.
+**¿Necesito conocer [ ARKIV ] de antemano?**
+No. Los materiales y la documentación están pensados para que arranques desde cero. El canal de soporte en Discord está activo durante toda la ventana de construcción.
 
-**Where are the rules hosted?**
-In this repo — see [RULES.md](RULES.md).
+**¿Dónde están las reglas?**
+En este repositorio — ver [RULES.md](RULES.md).
 
-**Can I use AI tools (Copilot, Claude, ChatGPT)?**
-Yes. We care about the result, not how you got there.
+**¿Puedo usar herramientas de IA (Copilot, Claude, ChatGPT)?**
+Sí. Nos importa el resultado, no cómo llegaste ahí.
 
-**Can I use pre-existing code, libraries, or boilerplate?**
-Yes for libraries, frameworks, and boilerplate. The Arkiv integration and core application logic must be original work created during the challenge period.
-
----
-
-### Themes
-
-**What are the themes?**
-
-**AI apps on [ARKIV]** — Build AI applications that use Arkiv as their data layer (you're replacing centralised data layers for AI agents)
-
-Full descriptions are in the [Builder's Guide](docs/builders-guide.md).
-
-**Do I have to pick one of the themes?**
-Yes — your submission must address at least one. State your theme(s) in the submission form.
-
-**Does my theme affect my score?**
-No. All themes are scored on the same rubric.
-
-**Can multiple teams pick the same theme?**
-Yes. There's no cap per theme.
+**¿Puedo usar código existente, librerías o boilerplate?**
+Sí para librerías, frameworks y boilerplate. La integración con [ ARKIV ] y la lógica central de la aplicación tienen que ser trabajo original creado durante el hackathon.
 
 ---
 
-### Teams & Submissions
+### Temática
 
-**Can I participate as a team?**
-Yes. The team size limit is 5 members. There's only one prize per winning team. How you split it is up to you.
+**¿Cuál es la temática?**
 
-**Can I submit more than one project?**
-No. One submission per individual or team. If you submit multiple times, only the last submission counts.
+**Aplicaciones de IA sobre [ ARKIV ]** — Construí aplicaciones de IA que usen [ ARKIV ] como capa de datos. Algunos ejemplos orientativos:
 
-**Can I update my submission after submitting?**
-Yes — until the deadline. After 30 May 2026 23:59 UTC, submissions are final.
+- **Memoria de IA que es tuya** — datos de contexto de agentes almacenados en [ ARKIV ], con expiración, que sólo vos controlás.
+- **Procedencia y auditoría de IA** — rastros de decisiones y outputs de modelos, a prueba de manipulación.
+- **Capas de datos personales para IA** — perfiles y preferencias del usuario almacenados en [ ARKIV ] en lugar de en servidores centralizados.
 
-**What's required in my submission?**
-Your chosen theme(s), public GitHub repo, working demo URL, README with setup instructions, and the completed submission form. Full details in [RULES.md](RULES.md).
+Estas son referencias, no categorías cerradas. Descripciones completas en la [Guía para participantes](docs/builders-guide.md).
+
+**¿Tengo que elegir uno de los ejemplos?**
+No es obligatorio encuadrarte en un ejemplo específico. Tu proyecto tiene que estar dentro de la temática general "Aplicaciones de IA sobre [ ARKIV ]". Indicá tu enfoque en el formulario de envío.
+
+**¿La temática que elija afecta mi puntuación?**
+No. Todos los proyectos se evalúan con el mismo criterio.
+
+**¿Varios equipos pueden trabajar sobre el mismo enfoque?**
+Sí. No hay límite por enfoque.
 
 ---
 
-### Building
+### Equipos y envíos
 
-**Where do I find requirements for my theme?**
-The [Builder's Guide](docs/builders-guide.md) has concrete build ideas, entity-design hints, and expiration guidance for the theme.
+**¿Puedo participar en equipo?**
+Sí. El límite es 5 integrantes. Hay un solo premio por equipo ganador; cómo lo repartís entre ustedes es decisión de ustedes.
 
-**Can I use any tech stack?**
-Yes. Arkiv is the data layer — pick whatever you want for the frontend, styling, wallet connection, and hosting.
+**¿Puedo enviar más de un proyecto?**
+No. Un envío por persona o equipo. Si enviás varias veces, sólo cuenta el último.
 
-**Do I need a smart contract?**
-Not required. You can build a fully functional submission using only the Arkiv SDK.
+**¿Puedo actualizar mi envío después de haberlo enviado?**
+Sí — hasta el cierre. Después del **sábado 30 de mayo a las 4:00 PM (hora Argentina)**, los envíos son definitivos.
 
-**What chain does this run on?**
-Arkiv testnet — **Arkiv Testnet**:
+**¿Qué tengo que incluir en mi envío?**
+- Repositorio público en GitHub (todos los integrantes del equipo como colaboradores)
+- Video público de demostración
+- Formulario completado en `https://forms.arkiv.network/punatech26`
+- Pitch en español
+
+Detalles completos en [RULES.md](RULES.md).
+
+---
+
+### Construcción
+
+**¿Dónde encuentro los requisitos de la temática?**
+La [Guía para participantes](docs/builders-guide.md) tiene ideas concretas, sugerencias de diseño de entidades y orientación sobre fechas de expiración de datos.
+
+**¿Puedo usar cualquier stack tecnológico?**
+Sí. [ ARKIV ] es la capa de datos — elegí lo que quieras para el frontend, el estilo, la conexión de wallets y el hosting.
+
+**¿Necesito un smart contract?**
+No es obligatorio. Podés hacer un proyecto completamente funcional usando sólo el SDK de [ ARKIV ].
+
+**¿En qué red corre esto?**
+Testnet de [ ARKIV ] — **Arkiv Testnet**:
 
 | | |
 |---|---|
 | **Network ID** | `60138453102` |
 | **HTTP RPC** | `https://braga.hoodi.arkiv.network/rpc` |
 | **WebSocket RPC** | `wss://braga.hoodi.arkiv.network/rpc/ws` |
-| **Faucet** | TBC — check Discord for updates |
+| **Faucet** | Próximamente — chequeá Discord para novedades |
 
-Use `@arkiv-network/sdk@0.6.8`.
+Usá `@arkiv-network/sdk@0.6.8`.
 
-**Is there an agent skill that knows Arkiv?**
-Yes — `arkiv-best-practices`. Install it in your AI coding assistant and your agent stops inventing SDK calls. Setup instructions in [docs/agent-skill.md](docs/agent-skill.md).
+**¿Hay algún skill de agente que conozca [ ARKIV ]?**
+Sí — `arkiv-best-practices`. Instalalo en tu asistente de código con IA y tu agente deja de inventarse llamadas al SDK. Instrucciones de configuración en [docs/agent-skill.md](docs/agent-skill.md).
 
-**Where do I get help if I'm stuck?**
-**dedicated support channel (coming soon)** on the [Arkiv Discord](https://discord.gg/arkiv). The Arkiv team is on call daily during the build window.
-
----
-
-### Prizes
-
-**What exactly do I win?**
-The top 4 ranked submissions receive: **$600 USDC (1st), $450 USDC (2nd), $300 USDC (3rd), $150 USDC (4th)**.
-
-**What if I win but can't complete KYC?**
-The prize may transfer to the next-ranked submission. You have 3 days to complete KYC after being notified.
-
-**Do I need to do KYC to enter?**
-No. KYC is only required to claim a prize.
-
-**What KYC do I need?**
-All team members must complete KYC individually. You'll need: a government-issued ID, a signed declaration form (provided to winners after notification — print and sign by hand), and a selfie with your ID. Full details in [RULES Section 7](RULES.md#7-kyc--prize-disbursement).
+**¿Dónde pido ayuda si me trabo?**
+En el **canal de soporte dedicado (próximamente)** del [Discord de Arkiv](https://discord.gg/arkiv). El equipo de [ ARKIV ] está disponible todos los días durante la ventana de construcción.
 
 ---
 
-### Judging
+### Premios
 
-**How are submissions scored?**
-Four criteria with published weights — same rubric for all themes:
+**¿Qué premio recibo si gano?**
+Los 4 mejores proyectos reciben: **$600 USD (1°), $450 USD (2°), $300 USD (3°), $150 USD (4°)**.
 
-| Criteria | Weight |
-|----------|--------|
-| Arkiv integration depth | 40% |
-| Functionality | 30% |
-| Design & UX | 20% |
-| Code quality & docs | 10% |
+**¿Necesito completar KYC para participar?**
+No para inscribirte ni competir. Sin embargo, **el KYC es obligatorio para cobrar el premio**. Si ganás y no completás el KYC en el plazo indicado, el premio puede pasar al siguiente clasificado. Tené esto en cuenta antes de participar — no hay excepciones.
 
-See the [Scoring Rubric](docs/scoring-rubric.md) for detailed sub-criteria.
+**¿Qué pasa si gano pero no puedo completar el KYC?**
+El premio puede transferirse al siguiente clasificado. Tenés 3 días para completar el KYC desde que te notificamos.
 
----
-
-### Rules
-
-**Where are the full rules?**
-[Official Rules & Terms](RULES.md)
-
-**Who owns the code I write?**
-You do. By entering, you grant Arkiv a non-exclusive licence to showcase your project. You can do whatever you want with your own code.
-
-**What licence do I need?**
-Open source — MIT, Apache 2.0, or equivalent.
+**¿Qué KYC se requiere?**
+Todos los integrantes del equipo tienen que completar el KYC individualmente. Necesitás: un documento de identidad emitido por el gobierno, un formulario de declaración firmado (se entrega a los ganadores tras la notificación — imprimilo y firmalo a mano), y una selfie con tu documento. Detalles completos en [RULES Sección 7](RULES.md#7-kyc--prize-disbursement).
 
 ---
 
-*Don't see your question? Join our [Discord](https://discord.gg/arkiv) and ask in **dedicated support channel (coming soon)**.*
+### Evaluación
+
+**¿Cómo se puntúan los proyectos?**
+Cuatro criterios con pesos publicados — mismo criterio para todos:
+
+| Criterio | Peso |
+|----------|------|
+| Profundidad de integración con [ ARKIV ] | 40% |
+| Funcionalidad | 30% |
+| Diseño y UX | 20% |
+| Calidad del código y documentación | 10% |
+
+Ver la [Rúbrica de evaluación](docs/scoring-rubric.md) para los sub-criterios detallados.
+
+---
+
+### Reglas
+
+**¿Dónde están las reglas completas?**
+[Reglas y términos oficiales](RULES.md)
+
+**¿De quién es el código que escribo?**
+Tuyo. Al participar, le otorgás a [ ARKIV ] una licencia no exclusiva para mostrar tu proyecto. Podés hacer lo que quieras con tu propio código.
+
+**¿Qué licencia necesito usar?**
+Open source — MIT, Apache 2.0 o equivalente.
+
+---
+
+*¿No encontrás tu pregunta? Unite a nuestro [Discord](https://discord.gg/arkiv) y preguntá en el **canal de soporte dedicado (próximamente)**.*

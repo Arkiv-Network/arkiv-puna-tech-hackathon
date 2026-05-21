@@ -1,141 +1,153 @@
-# Arkiv × Puna Tech Builder Challenge — Scoring Rubric
+# [ ARKIV ] × PunaTech 2026 — Rúbrica de Evaluación
+### Ideathon + Hackathon · Salta, Argentina · 28–30 de mayo de 2026
 
 ---
 
-## Scoring scale
+## Escala de puntuación
 
-Each sub-criteria is scored **1–5**:
+Cada sub-criterio se puntúa de **1 a 5**:
 
-| Score | Meaning |
-|-------|---------|
-| 1 | Missing or broken |
-| 2 | Minimal effort, barely functional |
-| 3 | Works, meets expectations |
-| 4 | Good — thoughtful implementation, above average |
-| 5 | Excellent — impressive, creative, or production-quality |
-
----
-
-## Criteria 1: Arkiv integration depth (40%)
-
-This is the core of the challenge. We're evaluating how meaningfully Arkiv is used as the data layer — not just whether it's present.
-
-| Sub-criteria | 1 (Weak) | 3 (Solid) | 5 (Excellent) |
-|-------------|----------|-----------|----------------|
-| **Entity schema design** | Single blob entity, no structure. Missing or generic `PROJECT_ATTRIBUTE`. | Separate entity types stamped with a unique `PROJECT_ATTRIBUTE`, with typed attributes and clear separation of concerns | Well-designed schema with right-typed attributes, payload structured for the use case, project-namespaced cleanly |
-| **Query usage** | Only reads by entity key | Filters by `PROJECT_ATTRIBUTE` plus 1–2 theme attributes | Uses multiple query filters, range queries on numeric attributes, paginates large result sets |
-| **Ownership model** | No wallet association | Uses `$owner` correctly (only the owner can update/delete) | End-user `$owner` for write/update/delete control, plus `$creator` used intentionally for tamper-proof attribution where it matters |
-| **Entity relationships** | No relationships | Parent → child links via shared-attribute foreign keys | Foreign-key attributes used consistently, relationships maintained on create/delete, used for navigation and data integrity |
-| **Expiration dates** | No expiration set, or same expiration on everything | `expiresIn` durations present and reasonable for the domain | Thoughtful, differentiated `expiresIn` per entity type reflecting real product logic |
-| **Advanced features** | None | Entity lifecycle transitions based on business logic | Multiple: batch creates via `mutateEntities`, creative use of Arkiv features |
-
-**Section score** = average of 6 sub-criteria, weighted at 40%
+| Puntaje | Significado |
+|---------|-------------|
+| 1 | Ausente o no funciona |
+| 2 | Esfuerzo mínimo, apenas funcional |
+| 3 | Funciona, cumple con lo esperado |
+| 4 | Bien — implementación reflexiva, por encima del promedio |
+| 5 | Excelente — impresiona, creativo o de calidad producción |
 
 ---
 
-## Criteria 2: Functionality (30%)
+## Criterio 1: Profundidad de integración con [ ARKIV ] (40%)
 
-Does it work? Can a real user complete the core flows for the chosen theme?
+Este es el núcleo del Hackathon. Evaluamos qué tan significativamente se usa [ ARKIV ] como capa de datos — no solo si está presente.
 
-| Sub-criteria | 1 (Weak) | 3 (Solid) | 5 (Excellent) |
-|-------------|----------|-----------|----------------|
-| **Core flows work** | Can't complete basic create or browse flow | Create + browse + view details all work end-to-end | All flows work reliably: create, browse, filter, view, interact, edit, manage |
-| **Filtering & search** | No filtering | 1–2 filters work | Multiple filters, keyword search, filters combinable, results update correctly |
-| **Wallet integration** | Wallet connects but nothing happens | Wallet-gated features work | Smooth wallet flow: connect, chain check, error states, disconnect. Blockchain complexity abstracted away. |
-| **Error handling** | Crashes or silent failures | Basic error messages shown to user | Graceful error states: network issues, failed transactions, validation errors |
-| **Data integrity** | Data inconsistencies, broken references | Data is consistent within the app | Entity status transitions are reliable, no orphaned data |
+| Sub-criterio | 1 (Débil) | 3 (Sólido) | 5 (Excelente) |
+|-------------|-----------|------------|----------------|
+| **Diseño del esquema de entidades** | Entidad blob sin estructura. `PROJECT_ATTRIBUTE` ausente o genérico. | Tipos de entidad separados con `PROJECT_ATTRIBUTE` único, atributos tipados y separación clara de responsabilidades. | Esquema bien diseñado con atributos correctamente tipados, payload estructurado para el caso de uso, project-namespace limpio. |
+| **Uso de consultas** | Solo lectura por clave de entidad. | Filtra por `PROJECT_ATTRIBUTE` más 1–2 atributos temáticos. | Múltiples filtros de consulta, range queries sobre atributos numéricos, paginación de resultados grandes. |
+| **Modelo de propiedad** | Sin asociación de billetera. | Usa `$owner` correctamente (solo el propietario puede actualizar/eliminar). | `$owner` del usuario final para control de escritura/actualización/eliminación, más `$creator` usado intencionalmente para atribución a prueba de manipulación donde corresponde. |
+| **Relaciones entre entidades** | Sin relaciones. | Links padre → hijo via foreign keys de atributo compartido. | Atributos de foreign key usados consistentemente, relaciones mantenidas en creación/eliminación, usadas para navegación e integridad de datos. |
+| **Fechas de expiración** | Sin expiración definida, o la misma en todo. | Duraciones `expiresIn` presentes y razonables para el dominio. | `expiresIn` diferenciadas y reflexivas por tipo de entidad, reflejando lógica de producto real. |
+| **Funcionalidades avanzadas** | Ninguna. | Transiciones del ciclo de vida de entidades basadas en lógica de negocio. | Múltiples: creaciones en lote via `mutateEntities`, uso creativo de funcionalidades de [ ARKIV ]. |
 
-**Section score** = average of 5 sub-criteria, weighted at 30%
-
----
-
-## Criteria 3: Design & UX (20%)
-
-Would someone actually use this? Does it feel like a product, not a demo?
-
-| Sub-criteria | 1 (Weak) | 3 (Solid) | 5 (Excellent) |
-|-------------|----------|-----------|----------------|
-| **Visual design** | Default/unstyled, no design effort | Clean, consistent styling. Looks intentional. | Distinctive visual identity, good typography, cohesive colour palette, feels professional |
-| **User experience** | Confusing navigation, unclear what to do next | Clear information hierarchy, obvious CTAs, reasonable flow | Intuitive from first visit, good empty states, loading states, progressive disclosure |
-| **Responsive** | Broken on mobile | Usable on mobile, basic responsive layout | Looks and works well across screen sizes |
-| **Blockchain abstraction** | User needs to understand Arkiv/blockchain to use the app | Blockchain details present but not blocking | User doesn't need to know about Arkiv or blockchain to browse and use core flows |
-
-**Section score** = average of 4 sub-criteria, weighted at 20%
+**Puntaje de sección** = promedio de 6 sub-criterios, con peso del 40%
 
 ---
 
-## Criteria 4: Code quality & documentation (10%)
+## Criterio 2: Funcionalidad (30%)
 
-Can someone else understand and run your project?
+¿Funciona? ¿Puede un usuario real completar los flujos principales del tema elegido?
 
-| Sub-criteria | 1 (Weak) | 3 (Solid) | 5 (Excellent) |
-|-------------|----------|-----------|----------------|
-| **README** | Missing or "TODO" | Setup instructions that work, basic description | Clear README with architecture overview, setup steps, and explanation of Arkiv integration approach |
-| **Code organisation** | Single file or spaghetti | Reasonable file structure, components separated | Clean architecture, separation of concerns, readable naming |
-| **Code quality** | Unreadable, no error handling | Consistent style, basic error handling | Clean, consistent, well-structured. Types where appropriate. No obvious security issues. |
+| Sub-criterio | 1 (Débil) | 3 (Sólido) | 5 (Excelente) |
+|-------------|-----------|------------|----------------|
+| **Flujos principales funcionan** | No se puede completar el flujo básico de creación o navegación. | Crear + navegar + ver detalles funcionan de punta a punta. | Todos los flujos funcionan de forma confiable: crear, navegar, filtrar, ver, interactuar, editar, gestionar. |
+| **Filtrado y búsqueda** | Sin filtrado. | 1–2 filtros funcionan. | Múltiples filtros, búsqueda por palabra clave, filtros combinables, resultados se actualizan correctamente. |
+| **Integración de billetera** | La billetera conecta pero no pasa nada. | Las funcionalidades con billetera funcionan. | Flujo de billetera fluido: conectar, verificar red, estados de error, desconectar. Complejidad blockchain abstraída. |
+| **Manejo de errores** | Crashes o fallas silenciosas. | Mensajes de error básicos mostrados al usuario. | Estados de error manejados: problemas de red, transacciones fallidas, errores de validación. |
+| **Integridad de datos** | Inconsistencias de datos, referencias rotas. | Los datos son consistentes dentro de la app. | Las transiciones de estado de entidades son confiables, sin datos huérfanos. |
 
-**Section score** = average of 3 sub-criteria, weighted at 10%
+**Puntaje de sección** = promedio de 5 sub-criterios, con peso del 30%
 
 ---
 
-## Final score calculation
+## Criterio 3: Diseño y UX (20%)
+
+¿Alguien lo usaría realmente? ¿Se siente como un producto y no una demo?
+
+| Sub-criterio | 1 (Débil) | 3 (Sólido) | 5 (Excelente) |
+|-------------|-----------|------------|----------------|
+| **Diseño visual** | Sin estilo, sin esfuerzo de diseño. | Estilo limpio y consistente. Se ve intencional. | Identidad visual distintiva, buena tipografía, paleta de colores cohesiva, se siente profesional. |
+| **Experiencia de usuario** | Navegación confusa, no queda claro qué hacer. | Jerarquía de información clara, CTAs obvios, flujo razonable. | Intuitivo desde la primera visita, buenos estados vacíos, estados de carga, divulgación progresiva. |
+| **Responsivo** | Roto en mobile. | Usable en mobile, layout responsivo básico. | Se ve y funciona bien en distintos tamaños de pantalla. |
+| **Abstracción de blockchain** | El usuario necesita entender [ ARKIV ] o blockchain para usar la app. | Los detalles de blockchain están presentes pero no bloquean. | El usuario no necesita saber nada de [ ARKIV ] o blockchain para navegar y usar los flujos principales. |
+
+**Puntaje de sección** = promedio de 4 sub-criterios, con peso del 20%
+
+---
+
+## Criterio 4: Calidad de código y documentación (10%)
+
+¿Puede otra persona entender y correr tu proyecto?
+
+| Sub-criterio | 1 (Débil) | 3 (Sólido) | 5 (Excelente) |
+|-------------|-----------|------------|----------------|
+| **README** | Ausente o "TODO". | Instrucciones de setup que funcionan, descripción básica. | README claro con resumen de arquitectura, pasos de setup, y explicación del enfoque de integración con [ ARKIV ]. |
+| **Organización del código** | Archivo único o código espagueti. | Estructura de archivos razonable, componentes separados. | Arquitectura limpia, separación de responsabilidades, nombres descriptivos. |
+| **Calidad del código** | Ilegible, sin manejo de errores. | Estilo consistente, manejo básico de errores. | Limpio, consistente, bien estructurado. Tipos donde corresponde. Sin problemas evidentes de seguridad. |
+
+**Puntaje de sección** = promedio de 3 sub-criterios, con peso del 10%
+
+---
+
+## Cálculo del puntaje final
 
 ```
-Final Score = (Arkiv Integration × 0.40) + (Functionality × 0.30) + (Design & UX × 0.20) + (Code Quality × 0.10)
+Puntaje Final = (Integración con Arkiv × 0,40) + (Funcionalidad × 0,30) + (Diseño y UX × 0,20) + (Calidad de código × 0,10)
 ```
 
-Each section score is the average of its sub-criteria (all on 1–5 scale), so the final score is also on a 1–5 scale.
+Cada puntaje de sección es el promedio de sus sub-criterios (todos en escala 1–5), por lo que el puntaje final también está en escala 1–5.
 
 ---
 
-## Judge scorecard template
+## Premios
+
+| Posición | Premio |
+|----------|--------|
+| 1° lugar | $600 USD |
+| 2° lugar | $450 USD |
+| 3° lugar | $300 USD |
+| 4° lugar | $150 USD |
+
+---
+
+## Planilla de evaluación para jurados
 
 ```
-Submission: [Team name]
-Theme(s): [Themes addressed]
-Judge: [Name]
-Date: [Date]
+Equipo: [Nombre del equipo]
+Tema(s): [Verticales abordadas]
+Jurado: [Nombre]
+Fecha: [Fecha]
 
-ARKIV INTEGRATION (40%)
-  Entity schema design:     _/5
-  Query usage:              _/5
-  Ownership model:          _/5
-  Entity relationships:     _/5
-  Expiration dates:         _/5
-  Advanced features:        _/5
-  Section avg:              _/5
+INTEGRACIÓN CON ARKIV (40%)
+  Diseño del esquema de entidades:   _/5
+  Uso de consultas:                  _/5
+  Modelo de propiedad:               _/5
+  Relaciones entre entidades:        _/5
+  Fechas de expiración:              _/5
+  Funcionalidades avanzadas:         _/5
+  Promedio de sección:               _/5
 
-FUNCTIONALITY (30%)
-  Core flows work:          _/5
-  Filtering & search:       _/5
-  Wallet integration:       _/5
-  Error handling:           _/5
-  Data integrity:           _/5
-  Section avg:              _/5
+FUNCIONALIDAD (30%)
+  Flujos principales funcionan:      _/5
+  Filtrado y búsqueda:               _/5
+  Integración de billetera:          _/5
+  Manejo de errores:                 _/5
+  Integridad de datos:               _/5
+  Promedio de sección:               _/5
 
-DESIGN & UX (20%)
-  Visual design:            _/5
-  User experience:          _/5
-  Responsive:               _/5
-  Blockchain abstraction:   _/5
-  Section avg:              _/5
+DISEÑO Y UX (20%)
+  Diseño visual:                     _/5
+  Experiencia de usuario:            _/5
+  Responsivo:                        _/5
+  Abstracción de blockchain:         _/5
+  Promedio de sección:               _/5
 
-CODE QUALITY (10%)
-  README:                   _/5
-  Code organisation:        _/5
-  Code quality:             _/5
-  Section avg:              _/5
+CALIDAD DE CÓDIGO (10%)
+  README:                            _/5
+  Organización del código:           _/5
+  Calidad del código:                _/5
+  Promedio de sección:               _/5
 
-WEIGHTED FINAL:             _/5
+PUNTAJE FINAL PONDERADO:             _/5
 
-Notes:
-[Free-form observations, standout features, concerns]
+Notas:
+[Observaciones, aspectos destacados, preocupaciones]
 ```
 
 ---
 
-## Tiebreaker
+## Desempate
 
-If two submissions have the same final score (within 0.1):
-1. Arkiv Integration score is the tiebreaker (highest wins)
-2. If still tied, the judge panel discusses and reaches consensus
+Si dos proyectos tienen el mismo puntaje final (diferencia de 0,1 o menos):
+1. El puntaje de Integración con [ ARKIV ] es el desempate (gana el más alto).
+2. Si persiste el empate, el panel de jurados discute y llega a un consenso.

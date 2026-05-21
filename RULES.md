@@ -1,211 +1,217 @@
-# Arkiv × Puna Tech Builder Challenge — Official Rules & Terms
+# [ ARKIV ] × Puna Tech — Hackathon: Reglas y Términos Oficiales
 
 ---
 
-## 1. Overview
-
-The Arkiv × Puna Tech Builder Challenge ("Challenge") is organised by Golem Factory GmbH, doing business as "Arkiv Network" ("Organiser"), in collaboration with Puna Tech / SaltaDev ("Community Partner"). By submitting an entry, participants agree to these rules in full.
+> **Importante — KYC:** Los equipos ganadores deberán completar un proceso de verificación de identidad (KYC) antes de recibir el premio. Todos los integrantes del equipo ganador deben completarlo de forma individual. Leé la [Sección 7](#7-kyc-y-pago-de-premios) antes de inscribirte.
 
 ---
 
-## 2. Eligibility
+## 1. Descripción general
 
-- Open to individuals and teams worldwide
-- Participants must be 18 years or older at time of submission
-- No purchase necessary to enter
-- Employees of Arkiv / Golem Network and their immediate family members are not eligible
-- Members of the Puna Tech / SaltaDev operations team may participate but are not eligible for prizes (to avoid conflict of interest)
-- One submission per individual or team. Multiple submissions will result in only the last submission being evaluated
-- Teams have a size limit of 5, but only **one prize is awarded per winning team** (see Section 5)
-
-**KYC requirement:** Prizes require identity verification before disbursement. All team members of a winning team must complete KYC individually. See [Section 7](#7-kyc--prize-disbursement) before entering.
+El Hackathon [ ARKIV ] × Puna Tech ("Hackathon") es organizado por Golem Factory GmbH, operando bajo el nombre "Arkiv Network" ("Organizador"), en colaboración con Puna Tech / SaltaDev ("Comunidad Organizadora"). Al enviar una propuesta, los participantes aceptan estas reglas en su totalidad.
 
 ---
 
-## 3. Challenge Period
+## 2. Elegibilidad
 
-- **Submissions open:** 28 May 2026
-- **Submissions close:** 30 May 2026 at 23:59 UTC
-- **Judging period:** 30 May 2026 (afternoon)
-- **Winners announced:** 30 May 2026 (afternoon)
+- Abierto a personas e equipos de todo el mundo
+- Los participantes deben tener 18 años o más al momento de la entrega
+- No se requiere ningún pago para participar
+- Los empleados de Arkiv / Golem Network y sus familiares directos no son elegibles
+- Los integrantes del equipo operativo de Puna Tech / SaltaDev pueden participar pero no son elegibles para premios (para evitar conflictos de interés)
+- Una sola entrega por persona o equipo. Si se envían varias, solo se evaluará la última
+- Los equipos tienen un límite de 5 integrantes, pero **se otorga un solo premio por equipo ganador** (ver Sección 5)
 
-Late submissions will not be accepted. The timestamp of the submission form entry is the official record. The Organiser reserves the right to adjust these dates; any changes will be communicated via Discord and official channels.
-
----
-
-## 4. Submission Requirements
-
-All submissions must be made via the official submission form: **[Submission form — link coming soon]()**. This is the only valid method of submission.
-
-All submissions must include:
-
-| Requirement | Details |
-|-------------|---------|
-| **GitHub repository** | Public repo with open source licence (MIT, Apache 2.0, or equivalent) |
-| **Working demo** | Deployed and accessible via URL, connected to Arkiv testnet |
-| **README** | Setup instructions, tech stack used, team members, chosen theme(s), and a brief description of your approach |
-| **Submission form** | Completed official submission form with repo link, demo link, team info, chosen theme(s), and wallet address |
-
-### What counts as a valid submission
-
-- Must address one of the approved themes — or be an explicit hybrid
-- Must use Arkiv as the primary data layer
-- Must be original work created during the Challenge period
-- Pre-existing code (libraries, frameworks, boilerplate) is allowed, but the Arkiv integration and core application logic must be new
-- Use of AI coding assistants (Copilot, Claude, ChatGPT, etc.) is allowed and encouraged — we care about the result, not how you got there
-
-### What will disqualify a submission
-
-- Plagiarised or copied code from another participant
-- Submissions that don't use Arkiv as the data layer
-- Submissions that don't address at least one of the approved themes
-- Malicious code, backdoors, or security vulnerabilities introduced intentionally
-- Submissions that don't include a working demo
-- Submissions after the deadline
+**Requisito de KYC:** Los premios requieren verificación de identidad antes del pago. Todos los integrantes del equipo ganador deben completar el KYC de forma individual. Ver [Sección 7](#7-kyc-y-pago-de-premios) antes de inscribirte.
 
 ---
 
-## 5. Prizes
+## 3. Período del Hackathon
 
-**Total prize pool: $1,500 USDC.**
+- **Apertura de entregas:** 28 de mayo de 2026
+- **Cierre de entregas:** 30 de mayo de 2026 a las 4:00 PM (hora Argentina)
+- **Período de evaluación:** 30 de mayo de 2026 (tarde)
+- **Anuncio de ganadores:** 30 de mayo de 2026 (tarde)
 
-| Place | Prize |
-|-------|-------|
-| 1st place | $600 USDC |
-| 2nd place | $450 USDC |
-| 3rd place | $300 USDC |
-| 4th place | $150 USDC |
-
-### Prize conditions
-
-- **Currency:** Stipend disbursed in USDC to the EVM wallet address provided by the winner.
-- **One prize per team.** If a winning team has multiple members, the team receives one stipend. How the team splits the stipend is their responsibility.
-- **KYC is required to claim the prize, not to enter.** All team members must complete KYC individually before funds are disbursed. See Section 7.
-- **Prize is non-transferable** except as described in the runner-up policy (Section 6).
-- **Tax obligations** are the winner's sole responsibility. The Organiser does not provide tax advice and will not withhold taxes.
+No se aceptan entregas tardías. El registro del formulario de entrega es el comprobante oficial. El Organizador se reserva el derecho de ajustar estas fechas; cualquier cambio se comunicará por Discord y canales oficiales.
 
 ---
 
-## 6. Runner-Up Policy
+## 4. Requisitos de entrega
 
-If a winner cannot or does not claim their prize within **3 calendar days** of the winner announcement:
+Todas las entregas deben realizarse a través del formulario oficial: **[https://forms.arkiv.network/punatech26](https://forms.arkiv.network/punatech26)**. Este es el único método de entrega válido.
 
-1. The Organiser will notify the winner and request confirmation
-2. If no response or the winner declines, the Organiser may transfer the prize to the next highest-ranked submission
-3. The runner-up then has 3 calendar days to complete KYC and claim the prize
-4. This process may repeat at the Organiser's discretion
+Cada entrega debe incluir:
 
----
+| Requisito | Detalle |
+|-----------|---------|
+| **Repositorio de GitHub** | Repo público con licencia open source (MIT, Apache 2.0 o equivalente). Todos los integrantes del equipo deben figurar como colaboradores. |
+| **Demo funcional** | Desplegada y accesible por URL, conectada a la testnet de [ ARKIV ] |
+| **README** | Instrucciones de instalación, stack tecnológico, integrantes del equipo, vertical/s elegida/s y descripción del enfoque |
+| **Formulario de entrega** | Formulario oficial completo con link al repo, link a la demo, info del equipo, vertical/s elegida/s y dirección de wallet |
+| **Video público** | Subido a YouTube o Google Drive, accesible públicamente |
+| **Pitch en español** | Presentación del proyecto en español para la evaluación final |
 
-## 7. KYC & Prize Disbursement
+### Qué cuenta como entrega válida
 
-### Who must complete KYC
+- Tiene que abordar una de las verticales aprobadas (o una combinación explícita)
+- Tiene que usar [ ARKIV ] como la capa de datos principal
+- Tiene que ser trabajo original creado durante el período del Hackathon
+- Se permite código preexistente (librerías, frameworks, boilerplate), pero la integración con [ ARKIV ] y la lógica principal de la aplicación deben ser nuevas
+- Se permite y se alienta el uso de asistentes de IA para programar (Copilot, Claude, ChatGPT, etc.) — nos importa el resultado, no cómo llegaste a él
 
-**All team members** of a winning team must complete KYC individually. This is required before any funds are disbursed.
+### Qué descalifica una entrega
 
-### Required documents
-
-Each team member must provide:
-
-1. **Government-issued ID** — Passport (preferred): a clear photo or scan of the identification page. National ID: both sides.
-2. **Signed declaration form** — We'll provide a PDF form. Print it, **sign it by hand with a pen**, then scan or photograph it. We do not accept digital, typed, or pasted signatures.
-3. **Selfie with ID** — A photo of yourself holding your ID next to your face. Both your face and the ID must be clearly readable.
-
-The declaration form will be provided to winners directly after notification.
-
-### Process
-
-1. **Winner notified** via email and contact details provided in the submission form
-2. **KYC submission** — all team members submit the three documents listed above within **3 calendar days** of notification
-3. **Wallet confirmation** — all team members indicate the same EVM wallet address in their KYC form
-4. **Verification** — the Organiser verifies documents (~2 business days). If documents are incomplete or incorrect, one correction round is allowed (2 additional days)
-5. **Disbursement** — prize amount per placement (see Section 5) sent to the confirmed wallet address on Ethereum mainnet
-
-### KYC data handling
-
-- KYC documents are forwarded to the Organiser's compliance office for processing
-- Government IDs and signed forms are retained per the Organiser's compliance requirements
-- KYC data will not be shared with third parties except as required by law
+- Código plagiado o copiado de otro participante
+- Entregas que no usen [ ARKIV ] como capa de datos
+- Entregas que no aborden al menos una de las verticales aprobadas
+- Código malicioso, backdoors o vulnerabilidades de seguridad introducidas intencionalmente
+- Entregas sin demo funcional
+- Entregas después del plazo
 
 ---
 
-## 8. Judging
+## 5. Premios
 
-### Panel
+**Premio total: $1.500 USD.**
 
-Marcos Miranda and Daniel (surname TBC) — Arkiv team
+| Puesto | Premio |
+|--------|--------|
+| 1° lugar | $600 USD |
+| 2° lugar | $450 USD |
+| 3° lugar | $300 USD |
+| 4° lugar | $150 USD |
 
-The Puna Tech / SaltaDev team does not participate in judging to maintain impartiality.
+### Condiciones del premio
 
-### Evaluation Criteria
-
-| Criteria | Weight | What we're looking for |
-|----------|--------|----------------------|
-| **Arkiv integration depth** | 40% | How meaningfully does the project use Arkiv's entity system? Proper schemas, queryable attributes, wallet ownership, expiration dates, entity relationships — not just a key-value wrapper. |
-| **Functionality** | 30% | Does it work? Can a user complete the core flows for the chosen theme? Is it reliable? |
-| **Design & UX** | 20% | Is it usable? Does it feel like a product someone would actually use? Does it abstract away blockchain complexity? |
-| **Code quality & docs** | 10% | Clean code, good README, setup instructions, reasonable architecture |
-
-### Process
-
-1. All valid submissions are reviewed by the full judging panel
-2. Each judge scores independently on all 4 criteria
-3. Scores are averaged across judges
-4. Final ranking is determined by weighted average score
-5. In case of a tie, the panel discusses and reaches consensus
-6. Judges' decisions are final and not subject to appeal
+- **Moneda:** El premio se paga en USDC a la dirección de wallet EVM indicada por el equipo ganador.
+- **Un premio por equipo.** Si el equipo ganador tiene varios integrantes, el equipo recibe un solo pago. La distribución interna es responsabilidad del equipo.
+- **El KYC es obligatorio para cobrar el premio, no para participar.** Todos los integrantes deben completarlo individualmente antes del pago. Ver Sección 7.
+- **El premio no es transferible**, salvo según la política de reservas (Sección 6).
+- **Las obligaciones impositivas** son responsabilidad exclusiva del ganador. El Organizador no brinda asesoramiento fiscal y no realizará retenciones.
 
 ---
 
-## 9. Intellectual Property
+## 6. Política de reservas
 
-- **Participants retain full ownership** of their submissions
-- By entering, participants grant the Organiser a **non-exclusive, royalty-free, worldwide licence** to showcase the submission in marketing materials, presentations, and documentation
-- This licence does not transfer ownership. Participants can do whatever they want with their own code.
-- All submissions must be published under an **open source licence** (MIT, Apache 2.0, or equivalent)
+Si un ganador no puede o no reclama su premio dentro de los **3 días calendario** posteriores al anuncio:
 
----
-
-## 10. Code of Conduct
-
-Participants agree to:
-
-- Treat other participants, organisers, and community members with respect
-- Not engage in harassment, discrimination, or hostile behaviour in any Challenge-related channel
-- Not attempt to sabotage, interfere with, or copy other participants' submissions
-- Not submit content that is illegal, harmful, or violates third-party rights
-- Report any concerns to the Organiser via Discord or email
-
-Violations may result in disqualification at the Organiser's sole discretion.
+1. El Organizador notificará al ganador y solicitará confirmación
+2. Si no hay respuesta o el ganador declina, el Organizador podrá transferir el premio a la siguiente entrega mejor rankeada
+3. El equipo de reserva tendrá 3 días calendario para completar el KYC y reclamar el premio
+4. Este proceso podrá repetirse a criterio del Organizador
 
 ---
 
-## 11. Liability & Disclaimers
+## 7. KYC y pago de premios
 
-- The Organiser is not responsible for technical failures, network issues, or Arkiv testnet downtime
-- The Organiser reserves the right to modify these rules, extend deadlines, or cancel the Challenge if circumstances require it
-- The Organiser's total liability is limited to the stated prize amounts
+### Quiénes deben completar el KYC
+
+**Todos los integrantes** del equipo ganador deben completar el KYC de forma individual. Es obligatorio antes de cualquier pago.
+
+### Documentación requerida
+
+Cada integrante debe presentar:
+
+1. **Documento de identidad oficial** — Pasaporte (preferido): foto o escaneo claro de la página de identificación. DNI o cédula: ambas caras.
+2. **Formulario de declaración firmado** — Vamos a enviar un formulario en PDF. Imprimilo, **firmalo a mano con lapicera**, luego escanealo o fotografialo. No aceptamos firmas digitales, escritas a máquina ni pegadas.
+3. **Selfie con documento** — Una foto tuya sosteniendo tu documento junto a tu cara. Tanto tu rostro como el documento deben verse con claridad.
+
+El formulario de declaración se enviará directamente a los ganadores después de la notificación.
+
+### Proceso
+
+1. **Notificación al ganador** por email y los datos de contacto provistos en el formulario de entrega
+2. **Envío del KYC** — todos los integrantes presentan los tres documentos dentro de los **3 días calendario** de la notificación
+3. **Confirmación de wallet** — todos los integrantes indican la misma dirección de wallet EVM en su formulario de KYC
+4. **Verificación** — el Organizador verifica los documentos (~2 días hábiles). Si los documentos están incompletos o incorrectos, se permite una ronda de corrección (2 días adicionales)
+5. **Pago** — el monto del premio según el puesto (ver Sección 5) se envía a la dirección de wallet confirmada en Ethereum mainnet
+
+### Manejo de datos de KYC
+
+- Los documentos de KYC se remiten a la oficina de cumplimiento del Organizador para su procesamiento
+- Los documentos de identidad y formularios firmados se conservan según los requisitos de cumplimiento del Organizador
+- Los datos de KYC no se compartirán con terceros, salvo cuando lo exija la ley
 
 ---
 
-## 12. Privacy
+## 8. Evaluación
 
-- Personal information collected through the submission form is used solely for Challenge administration
-- Email addresses may be used to communicate about the Challenge (winner notification, updates)
-- Participants will not be added to marketing mailing lists without explicit consent
+### Panel de jueces
+
+Marcos Miranda y Daniel (apellido a confirmar) — equipo de [ ARKIV ]
+
+El equipo de Puna Tech / SaltaDev no participa en la evaluación para mantener la imparcialidad.
+
+### Criterios de evaluación
+
+| Criterio | Peso | Qué buscamos |
+|----------|------|--------------|
+| **Profundidad de integración con [ ARKIV ]** | 40% | ¿Qué tan significativamente usa el proyecto el sistema de entidades de [ ARKIV ]? Schemas bien definidos, atributos consultables, ownership por wallet, datos con expiración, relaciones entre entidades — no solo un wrapper de clave-valor. |
+| **Funcionalidad** | 30% | ¿Funciona? ¿Un usuario puede completar los flujos principales de la vertical elegida? ¿Es confiable? |
+| **Diseño y UX** | 20% | ¿Es usable? ¿Se siente como un producto que alguien usaría de verdad? ¿Abstrae la complejidad de la blockchain? |
+| **Calidad del código y documentación** | 10% | Código limpio, buen README, instrucciones de instalación, arquitectura razonable |
+
+### Proceso
+
+1. Todas las entregas válidas son revisadas por el panel de jueces completo
+2. Cada juez puntúa de forma independiente en los 4 criterios
+3. Las puntuaciones se promedian entre jueces
+4. El ranking final se determina por el puntaje promedio ponderado
+5. En caso de empate, el panel discute y llega a un consenso
+6. Las decisiones de los jueces son definitivas y no están sujetas a apelación
 
 ---
 
-## 13. Governing Law
+## 9. Propiedad intelectual
 
-These rules are governed by the laws of Switzerland. Any disputes will be resolved through good-faith negotiation between the parties.
-
----
-
-## 14. Contact
-
-Questions about these rules: join our [Discord](https://discord.gg/arkiv) and ask in **dedicated support channel (coming soon)**.
+- **Los participantes conservan la propiedad plena** de sus entregas
+- Al participar, los participantes otorgan al Organizador una **licencia no exclusiva, libre de regalías y de alcance mundial** para mostrar la entrega en materiales de marketing, presentaciones y documentación
+- Esta licencia no transfiere la propiedad. Los participantes pueden hacer lo que quieran con su propio código.
+- Todas las entregas deben publicarse bajo una **licencia open source** (MIT, Apache 2.0 o equivalente)
 
 ---
 
-*By submitting an entry, you confirm that you have read, understood, and agree to these Official Rules & Terms.*
+## 10. Código de conducta
+
+Los participantes se comprometen a:
+
+- Tratar con respeto a otros participantes, organizadores y miembros de la comunidad
+- No incurrir en acoso, discriminación ni comportamiento hostil en ningún canal relacionado con el Hackathon
+- No intentar sabotear, interferir ni copiar las entregas de otros participantes
+- No enviar contenido ilegal, dañino o que viole derechos de terceros
+- Reportar cualquier problema al Organizador por Discord o email
+
+Las infracciones pueden resultar en descalificación a discreción exclusiva del Organizador.
+
+---
+
+## 11. Responsabilidad y descargos
+
+- El Organizador no es responsable por fallas técnicas, problemas de red o interrupciones en la testnet de [ ARKIV ]
+- El Organizador se reserva el derecho de modificar estas reglas, extender plazos o cancelar el Hackathon si las circunstancias lo requieren
+- La responsabilidad total del Organizador está limitada a los montos de los premios indicados
+
+---
+
+## 12. Privacidad
+
+- La información personal recopilada a través del formulario de entrega se usa exclusivamente para la administración del Hackathon
+- Las direcciones de email pueden usarse para comunicaciones relacionadas con el Hackathon (notificación a ganadores, actualizaciones)
+- Los participantes no serán agregados a listas de mailing de marketing sin consentimiento explícito
+
+---
+
+## 13. Ley aplicable
+
+Estas reglas se rigen por las leyes de Suiza. Cualquier disputa se resolverá mediante negociación de buena fe entre las partes.
+
+---
+
+## 14. Contacto
+
+¿Tenés preguntas sobre estas reglas? Unite a nuestro [Discord](https://discord.gg/arkiv) y preguntá en el canal de soporte dedicado.
+
+---
+
+*Al enviar tu propuesta, confirmás que leíste, entendiste y aceptás estas Reglas y Términos Oficiales.*
