@@ -8,7 +8,9 @@
 
 ## 1. Descripción general
 
-El Hackathon [ ARKIV ] × Puna Tech ("Hackathon") es organizado por Golem Factory GmbH, operando bajo el nombre "Arkiv Network" ("Organizador"), en colaboración con Puna Tech / SaltaDev ("Comunidad Organizadora"). Al enviar una propuesta, los participantes aceptan estas reglas en su totalidad.
+El Hackathon [ ARKIV ] × Puna Tech ("Hackathon") es organizado por Golem Factory GmbH, operando bajo el nombre "Arkiv Network" ("Organizador"), en colaboración con Puna Tech ("Comunidad Organizadora").
+
+Al enviar una propuesta, los participantes aceptan estas reglas en su totalidad.
 
 ---
 
@@ -18,7 +20,7 @@ El Hackathon [ ARKIV ] × Puna Tech ("Hackathon") es organizado por Golem Factor
 - Los participantes deben tener 18 años o más al momento de la entrega
 - No se requiere ningún pago para participar
 - Los empleados de Arkiv / Golem Network y sus familiares directos no son elegibles
-- Los integrantes del equipo operativo de Puna Tech / SaltaDev pueden participar pero no son elegibles para premios (para evitar conflictos de interés)
+- Los integrantes del equipo operativo de PunaTech pueden participar pero no son elegibles para premios (para evitar conflictos de interés)
 - Una sola entrega por persona o equipo. Si se envían varias, solo se evaluará la última
 - Los equipos tienen un límite de 5 integrantes, pero **se otorga un solo premio por equipo ganador** (ver Sección 5)
 
@@ -29,7 +31,7 @@ El Hackathon [ ARKIV ] × Puna Tech ("Hackathon") es organizado por Golem Factor
 ## 3. Período del Hackathon
 
 - **Apertura de entregas:** 28 de mayo de 2026
-- **Cierre de entregas:** 30 de mayo de 2026 a las 4:00 PM (hora Argentina)
+- **Cierre de entregas:** 30 de mayo de 2026 a las 2:00 PM (hora Argentina)
 - **Período de evaluación:** 30 de mayo de 2026 (tarde)
 - **Anuncio de ganadores:** 30 de mayo de 2026 (tarde)
 
@@ -139,9 +141,7 @@ El formulario de declaración se enviará directamente a los ganadores después 
 
 ### Panel de jueces
 
-Marcos Miranda y Daniel (apellido a confirmar) — equipo de [ ARKIV ]
-
-El equipo de Puna Tech / SaltaDev no participa en la evaluación para mantener la imparcialidad.
+Marcos y Daniel — equipo de [ ARKIV ]
 
 ### Criterios de evaluación
 
@@ -210,7 +210,7 @@ Estas reglas se rigen por las leyes de Suiza. Cualquier disputa se resolverá me
 
 ## 14. Contacto
 
-¿Tenés preguntas sobre estas reglas? Unite a nuestro [Discord](https://discord.gg/arkiv) y preguntá en el canal de soporte dedicado.
+¿Tenés preguntas sobre estas reglas? Unite a nuestro [Discord](https://discord.gg/arkiv) y preguntá.
 
 ---
 

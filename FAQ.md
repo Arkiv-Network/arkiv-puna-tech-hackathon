@@ -5,13 +5,13 @@
 ### General
 
 **¿Qué es el Hackathon de [ ARKIV ] en PunaTech 2026?**
-Una invitación a crear aplicaciones usando [ ARKIV ] como capa de datos, en el marco del Ideathon + Hackathon de PunaTech 2026 en Salta, del 28 al 30 de mayo. Los 4 mejores proyectos reciben premios por un total de $1.500 USD.
+Una invitación a crear aplicaciones AI usando [ ARKIV ] como capa de datos, en el marco de PunaTech 2026 en Salta, del 28 al 30 de mayo. Los 4 mejores proyectos reciben premios por un total de $1.500 USD.
 
 **¿Quién puede participar?**
 Cualquier persona mayor de 18 años. Solo o en equipo (máximo 5 integrantes).
 
 **¿Necesito conocer [ ARKIV ] de antemano?**
-No. Los materiales y la documentación están pensados para que arranques desde cero. El canal de soporte en Discord está activo durante toda la ventana de construcción.
+No. Los materiales y la documentación están pensados para que arranques desde cero. El canal de soporte en Discord está activo durante el hackathon.
 
 **¿Dónde están las reglas?**
 En este repositorio — ver [RULES.md](RULES.md).
@@ -34,7 +34,7 @@ Sí para librerías, frameworks y boilerplate. La integración con [ ARKIV ] y l
 - **Procedencia y auditoría de IA** — rastros de decisiones y outputs de modelos, a prueba de manipulación.
 - **Capas de datos personales para IA** — perfiles y preferencias del usuario almacenados en [ ARKIV ] en lugar de en servidores centralizados.
 
-Estas son referencias, no categorías cerradas. Descripciones completas en la [Guía para participantes](docs/builders-guide.md).
+Estas son referencias, no categorías cerradas. Lee más en la [Guía para participantes](docs/builders-guide.md).
 
 **¿Tengo que elegir uno de los ejemplos?**
 No es obligatorio encuadrarte en un ejemplo específico. Tu proyecto tiene que estar dentro de la temática general "Aplicaciones de IA sobre [ ARKIV ]". Indicá tu enfoque en el formulario de envío.
@@ -82,20 +82,20 @@ No es obligatorio. Podés hacer un proyecto completamente funcional usando sólo
 **¿En qué red corre esto?**
 Testnet de [ ARKIV ] — **Arkiv Testnet**:
 
-| | |
-|---|---|
-| **Network ID** | `60138453102` |
-| **HTTP RPC** | `https://braga.hoodi.arkiv.network/rpc` |
-| **WebSocket RPC** | `wss://braga.hoodi.arkiv.network/rpc/ws` |
-| **Faucet** | Próximamente — chequeá Discord para novedades |
+|                   |                                           |
+| ----------------- | ----------------------------------------- |
+| **Network ID**    | `60138453102`                             |
+| **HTTP RPC**      | `https://braga.hoodi.arkiv.network/rpc`   |
+| **WebSocket RPC** | `wss://braga.hoodi.arkiv.network/rpc/ws`  |
+| **Faucet**        | https://braga.hoodi.arkiv.network/faucet/ |
 
-Usá `@arkiv-network/sdk@0.6.8`.
+Usá `@arkiv-network/sdk@0.6.8` o superior.
 
 **¿Hay algún skill de agente que conozca [ ARKIV ]?**
 Sí — `arkiv-best-practices`. Instalalo en tu asistente de código con IA y tu agente deja de inventarse llamadas al SDK. Instrucciones de configuración en [docs/agent-skill.md](docs/agent-skill.md).
 
 **¿Dónde pido ayuda si me trabo?**
-En el **canal de soporte dedicado (próximamente)** del [Discord de Arkiv](https://discord.gg/arkiv). El equipo de [ ARKIV ] está disponible todos los días durante la ventana de construcción.
+En el  [Discord de Arkiv](https://discord.gg/arkiv). El equipo de [ ARKIV ] está disponible para dudas o consultas.
 
 ---
 
@@ -105,7 +105,7 @@ En el **canal de soporte dedicado (próximamente)** del [Discord de Arkiv](https
 Los 4 mejores proyectos reciben: **$600 USD (1°), $450 USD (2°), $300 USD (3°), $150 USD (4°)**.
 
 **¿Necesito completar KYC para participar?**
-No para inscribirte ni competir. Sin embargo, **el KYC es obligatorio para cobrar el premio**. Si ganás y no completás el KYC en el plazo indicado, el premio puede pasar al siguiente clasificado. Tené esto en cuenta antes de participar — no hay excepciones.
+No para inscribirte ni competir. Sin embargo, **el KYC es obligatorio para cobrar el premio**. Si ganás y no completás el KYC en el plazo indicado, el premio puede pasar al siguiente clasificado.
 
 **¿Qué pasa si gano pero no puedo completar el KYC?**
 El premio puede transferirse al siguiente clasificado. Tenés 3 días para completar el KYC desde que te notificamos.
@@ -144,4 +144,4 @@ Open source — MIT, Apache 2.0 o equivalente.
 
 ---
 
-*¿No encontrás tu pregunta? Unite a nuestro [Discord](https://discord.gg/arkiv) y preguntá en el **canal de soporte dedicado (próximamente)**.*
+*¿No encontrás tu pregunta? Unite a nuestro [Discord](https://discord.gg/arkiv) y preguntá.

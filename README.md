@@ -89,11 +89,8 @@ Antes del **sábado 30 de mayo a las 4:00 PM (hora Argentina)**, completá los c
 
 ### Entregá y conseguí ayuda
 
-| Qué | Dónde |
-| :---- | :---- |
+| Qué                       | Dónde                                                                            |
+| :------------------------ | :------------------------------------------------------------------------------- |
 | **Formulario de entrega** | [https://forms.arkiv.network/punatech26](https://forms.arkiv.network/punatech26) |
-| **Discord** | [Uníte al servidor](https://discord.gg/arkiv) → **canal de soporte dedicado (próximamente)** |
+| **Discord**               | [Uníte al servidor](https://discord.gg/arkiv)                                    |
 
----
-
-*Este no es un concurso para el equipo más grande ni para la maqueta más linda. Es un Hackathon. Shipeá algo real sobre una nueva primitiva de datos. El mejor trabajo habla por sí solo.*

@@ -6,9 +6,9 @@
 
 Una **aplicación Web3** donde todos los datos viven en [ ARKIV ]. Los usuarios son dueños de sus propios datos — no la plataforma.
 
-El track es **Aplicaciones de IA sobre [ ARKIV ]**. La idea es simple: reemplazás las capas de datos centralizadas que usan los agentes de IA y las apps de IA por [ ARKIV ] — una base de datos Web3 a prueba de manipulación, alineada con Ethereum.
+El track es **Aplicaciones de IA sobre [ ARKIV ]**. La idea es simple: reemplazás las capas de datos centralizadas que usan los agentes de IA y las apps de IA por [ ARKIV ] — una base de datos Web3 alineada con Ethereum.
 
-Tres vertientes de ejemplo para orientarte (pero no son las únicas):
+Tres verticales de ejemplo para orientarte (pero no son las únicas):
 
 | Vertical | De qué se trata |
 |----------|-----------------|
@@ -16,7 +16,7 @@ Tres vertientes de ejemplo para orientarte (pero no son las únicas):
 | **Procedencia y auditoría de IA** | Registros a prueba de manipulación de decisiones, outputs o cadenas de razonamiento de modelos de IA |
 | **Capas de datos personales para IA** | Perfiles, preferencias o historial controlados por el usuario que las apps de IA leen con permiso |
 
-¿Tenés otra idea con IA y datos? Si usa [ ARKIV ] como capa de datos, entra.
+¿Tenés otra idea con IA y datos? Si usa [ ARKIV ] como capa de datos, vale.
 
 **Construí lo que te entusiasme.**
 
@@ -72,20 +72,6 @@ Esto se evalúa. No te lo saltés.
 
 ---
 
-## Requisitos mínimos
-
-- [ ] Definí y usá un `PROJECT_ATTRIBUTE` único en cada entidad y cada query
-- [ ] Al menos 2 tipos de entidades
-- [ ] Ownership basado en wallet (los creadores son dueños de sus datos)
-- [ ] Atributos consultables usados para filtrar o buscar
-- [ ] Fechas de expiración con criterio en las entidades (ver [Una nota sobre la expiración](#una-nota-sobre-la-expiración) más abajo)
-- [ ] Lectura pública (sin wallet para navegar)
-- [ ] Repo GitHub público con todos los integrantes del equipo como colaboradores
-- [ ] Demo funcional conectada al Testnet de [ ARKIV ]
-- [ ] README con instrucciones de setup
-
----
-
 ## Una nota sobre la expiración
 
 Todas las entidades de [ ARKIV ] tienen fechas de expiración — esto es central en cómo funciona [ ARKIV ], no una feature opcional. En testnet, la expiración no tiene implicaciones de costo. En mainnet, las entidades de vida más corta son más baratas. Elegí las fechas de expiración con criterio: distintos tipos de entidades deberían tener duraciones distintas que reflejen lógica de producto real. Esa intencionalidad es lo que suma puntos en la evaluación de integración con [ ARKIV ].
@@ -94,7 +80,7 @@ Todas las entidades de [ ARKIV ] tienen fechas de expiración — esto es centra
 
 ## ⚠️ KYC obligatorio para cobrar el premio
 
-Para recibir el pago del premio, **todos los integrantes del equipo ganador deben completar el proceso de KYC (verificación de identidad)**. Sin KYC completado, el pago no puede procesarse. Tené el documento a mano — te lo pedimos apenas se anuncien los ganadores.
+Para recibir el pago del premio, **todos los integrantes del equipo ganador deben completar el proceso de KYC (verificación de identidad)**. Sin KYC completado, el pago no puede procesarse.
 
 ---
 
@@ -116,8 +102,7 @@ Los premios se pagan en cripto. **El KYC es obligatorio para todos los integrant
 1. **Elegí tu idea** dentro del track de IA sobre [ ARKIV ]
 2. **Leé la documentación de [ ARKIV ]** — [docs.arkiv.network](https://docs.arkiv.network)
 3. **Instalá el agent skill de [ ARKIV ]** — [docs/agent-skill.md](agent-skill.md) — carga el conocimiento del SDK en tu asistente de IA para que entienda [ ARKIV ] desde el primer prompt
-4. **Configurá tu `PROJECT_ATTRIBUTE`** antes de escribir cualquier código de entidades
-5. **Conectate al Testnet de [ ARKIV ]:**
+4. **Conectate al Testnet de [ ARKIV ]:**
 
    | Configuración | Valor |
    |---------------|-------|
@@ -127,16 +112,13 @@ Los premios se pagan en cripto. **El KYC es obligatorio para todos los integrant
    | Bridge contract | `0xB52b417A79c9dE21ffe221dF9a3821B7EaC60813` |
    | Faucet | TBC — revisá Discord para actualizaciones |
 
-6. **Instalá el SDK:**
+5. **Instalá el SDK:**
 
    ```bash
    npm install @arkiv-network/sdk@0.6.8
    ```
 
-7. **Hacé funcionar crear + leer + consultar para un tipo de entidad primero** — después agregás relaciones y más tipos
-8. **Unite al canal de Discord** — **canal de soporte dedicado (próximamente)** en el [Discord de Arkiv](https://discord.gg/arkiv)
-
-Flujo simple: cloná un ejemplo, conectá tu key, definí tu `PROJECT_ATTRIBUTE`, construí.
+6. **Hacé funcionar crear + leer + consultar para un tipo de entidad primero** — después agregás relaciones y más tipos
 
 ---
 
@@ -154,12 +136,8 @@ Flujo simple: cloná un ejemplo, conectá tu key, definí tu `PROJECT_ATTRIBUTE`
 
 **Entregá acá: [https://forms.arkiv.network/punatech26](https://forms.arkiv.network/punatech26)**
 
-Recordá: **KYC obligatorio para todos los integrantes que cobren el premio.** Apenas se anuncien los ganadores te pedimos la verificación — tenerla lista acelera el pago.
-
 ---
 
 ## ¿Preguntas?
 
-Unite al [Discord de Arkiv](https://discord.gg/arkiv) → **canal de soporte dedicado (próximamente)**. El equipo de Arkiv está disponible todos los días durante el hackathon.
-
-No te tragues los bloqueos. Si estás trabado con alguna integración de [ ARKIV ], preguntá.
+Unite al [Discord de Arkiv](https://discord.gg/arkiv). El equipo de Arkiv está disponible todos los días durante el hackathon.
