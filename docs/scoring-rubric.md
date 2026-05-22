@@ -1,5 +1,5 @@
 # [ ARKIV ] × PunaTech 2026 — Rúbrica de Evaluación
-### Ideathon + Hackathon · Salta, Argentina · 28–30 de mayo de 2026
+### Hackathon · Salta, Argentina · 28–30 de mayo de 2026
 
 ---
 
@@ -93,8 +93,20 @@ Cada puntaje de sección es el promedio de sus sub-criterios (todos en escala 1�
 
 | Posición | Premio |
 |----------|--------|
-| 1° lugar | $600 USD |
-| 2° lugar | $450 USD |
-| 3° lugar | $300 USD |
-| 4° lugar | $150 USD |
+| 1° lugar | $600 USDC |
+| 2° lugar | $450 USDC |
+| 3° lugar | $300 USDC |
+| 4° lugar | $150 USDC |
+
+---
+
+## Evaluación del Pitch
+
+El pitch en español forma parte de la evaluación final como complemento cualitativo. No tiene peso numérico independiente, pero los jueces lo consideran para:
+
+| Aspecto | Qué se observa |
+|---------|---------------|
+| **Claridad** | ¿Se entiende qué hace el proyecto y por qué importa? |
+| **Comunicación del problema** | ¿Transmite un problema real y cómo lo resuelve? |
+| **Demo en vivo** | Si aplica: ¿muestra el producto funcionando? |
 

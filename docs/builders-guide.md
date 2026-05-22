@@ -88,12 +88,12 @@ Para recibir el pago del premio, **todos los integrantes del equipo ganador debe
 
 | Posición | Premio |
 |----------|--------|
-| 1° lugar | USD 600 |
-| 2° lugar | USD 450 |
-| 3° lugar | USD 300 |
-| 4° lugar | USD 150 |
+| 1° lugar | USDC 600 |
+| 2° lugar | USDC 450 |
+| 3° lugar | USDC 300 |
+| 4° lugar | USDC 150 |
 
-Los premios se pagan en cripto. **El KYC es obligatorio para todos los integrantes del equipo que cobren el premio.**
+Los premios se pagan en USDC. **El KYC es obligatorio para todos los integrantes del equipo que cobren el premio.**
 
 ---
 
@@ -110,12 +110,12 @@ Los premios se pagan en cripto. **El KYC es obligatorio para todos los integrant
    | RPC (HTTP) | `https://braga.hoodi.arkiv.network/rpc` |
    | RPC (WebSocket) | `wss://braga.hoodi.arkiv.network/rpc/ws` |
    | Bridge contract | `0xB52b417A79c9dE21ffe221dF9a3821B7EaC60813` |
-   | Faucet | TBC — revisá Discord para actualizaciones |
+   | Faucet | https://braga.hoodi.arkiv.network/faucet/ |
 
 5. **Instalá el SDK:**
 
    ```bash
-   npm install @arkiv-network/sdk@0.6.8
+   npm install @arkiv-network/sdk@0.6.8  # o superior
    ```
 
 6. **Hacé funcionar crear + leer + consultar para un tipo de entidad primero** — después agregás relaciones y más tipos
@@ -140,4 +140,4 @@ Los premios se pagan en cripto. **El KYC es obligatorio para todos los integrant
 
 ## ¿Preguntas?
 
-Unite al [Discord de Arkiv](https://discord.gg/arkiv). El equipo de Arkiv está disponible todos los días durante el hackathon.
+Unite al [Discord de [ ARKIV ]](https://discord.gg/arkiv). El equipo de [ ARKIV ] está disponible todos los días durante el hackathon.

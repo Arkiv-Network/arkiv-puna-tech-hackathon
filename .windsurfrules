@@ -1,8 +1,8 @@
-# Arkiv × Puna Tech Hackathon — Windsurf Rules
+# Arkiv × PunaTech Hackathon — Windsurf Rules
 
 ## Purpose
 
-This repo contains official hackathon materials for the **Arkiv × Puna Tech Hackathon**, a hackathon track run by Arkiv at PunaTech in collaboration with Puna Tech / SaltaDev (28 May 2026–30 May 2026).
+This repo contains official hackathon materials for the **Arkiv × PunaTech Hackathon**, a hackathon track run by Arkiv at PunaTech in collaboration with PunaTech / SaltaDev (28 May 2026–30 May 2026).
 
 ## Document index
 
@@ -17,13 +17,13 @@ This repo contains official hackathon materials for the **Arkiv × Puna Tech Hac
 
 ## Challenge facts
 
-- **Prize:** $1,500 USD total — 4 ranked prizes ($600 1st · $450 2nd · $300 3rd · $150 4th)
+- **Prize:** $1,500 USDC total — 4 ranked prizes ($600 1st · $450 2nd · $300 3rd · $150 4th)
 - **Theme:** AI apps on [ARKIV] (pick it or hybridise)
-- **Scoring:** Arkiv integration 40% · Functionality 30% · Design/UX 20% · Code quality 10%
+- **Scoring:** Arkiv integration 40% · Functionality 30% · Design/UX 20% · Code quality & docs 10%
 - **Testnet:** Arkiv Testnet — `https://braga.hoodi.arkiv.network/rpc`
-- **SDK:** @arkiv-network/sdk@0.6.8
+- **SDK:** @arkiv-network/sdk@0.6.8 or later
 - **Submit:** link coming soon
-- **Support:** dedicated support channel (coming soon) on Arkiv Discord
+- **Support:** https://discord.gg/arkiv
 
 ## Builder assistance rules
 

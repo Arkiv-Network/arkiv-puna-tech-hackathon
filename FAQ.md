@@ -5,7 +5,7 @@
 ### General
 
 **¿Qué es el Hackathon de [ ARKIV ] en PunaTech 2026?**
-Una invitación a crear aplicaciones AI usando [ ARKIV ] como capa de datos, en el marco de PunaTech 2026 en Salta, del 28 al 30 de mayo. Los 4 mejores proyectos reciben premios por un total de $1.500 USD.
+Una invitación a crear aplicaciones AI usando [ ARKIV ] como capa de datos, en el marco de PunaTech 2026 en Salta, del 28 al 30 de mayo. Los 4 mejores proyectos reciben premios por un total de $1.500 USDC.
 
 **¿Quién puede participar?**
 Cualquier persona mayor de 18 años. Solo o en equipo (máximo 5 integrantes).
@@ -34,7 +34,7 @@ Sí para librerías, frameworks y boilerplate. La integración con [ ARKIV ] y l
 - **Procedencia y auditoría de IA** — rastros de decisiones y outputs de modelos, a prueba de manipulación.
 - **Capas de datos personales para IA** — perfiles y preferencias del usuario almacenados en [ ARKIV ] en lugar de en servidores centralizados.
 
-Estas son referencias, no categorías cerradas. Lee más en la [Guía para participantes](docs/builders-guide.md).
+Estas son referencias, no categorías cerradas. Lee más en la [Guía para builders](docs/builders-guide.md).
 
 **¿Tengo que elegir uno de los ejemplos?**
 No es obligatorio encuadrarte en un ejemplo específico. Tu proyecto tiene que estar dentro de la temática general "Aplicaciones de IA sobre [ ARKIV ]". Indicá tu enfoque en el formulario de envío.
@@ -63,6 +63,7 @@ Sí — hasta el cierre. Después del **sábado 30 de mayo a las 2:00 PM (hora A
 - Video público de demostración
 - Formulario completado en `https://forms.arkiv.network/punatech26`
 - Pitch en español
+- Demo funcional desplegada y accesible por URL, conectada a la testnet de [ ARKIV ]
 
 Detalles completos en [RULES.md](RULES.md).
 
@@ -71,7 +72,7 @@ Detalles completos en [RULES.md](RULES.md).
 ### Construcción
 
 **¿Dónde encuentro los requisitos de la temática?**
-La [Guía para participantes](docs/builders-guide.md) tiene ideas concretas, sugerencias de diseño de entidades y orientación sobre fechas de expiración de datos.
+La [Guía para builders](docs/builders-guide.md) tiene ideas concretas, sugerencias de diseño de entidades y orientación sobre fechas de expiración de datos.
 
 **¿Puedo usar cualquier stack tecnológico?**
 Sí. [ ARKIV ] es la capa de datos — elegí lo que quieras para el frontend, el estilo, la conexión de wallets y el hosting.
@@ -102,7 +103,7 @@ En el  [Discord de Arkiv](https://discord.gg/arkiv). El equipo de [ ARKIV ] est�
 ### Premios
 
 **¿Qué premio recibo si gano?**
-Los 4 mejores proyectos reciben: **$600 USD (1°), $450 USD (2°), $300 USD (3°), $150 USD (4°)**.
+Los 4 mejores proyectos reciben: **$600 USDC (1°), $450 USDC (2°), $300 USDC (3°), $150 USDC (4°)**.
 
 **¿Necesito completar KYC para participar?**
 No para inscribirte ni competir. Sin embargo, **el KYC es obligatorio para cobrar el premio**. Si ganás y no completás el KYC en el plazo indicado, el premio puede pasar al siguiente clasificado.
@@ -111,7 +112,7 @@ No para inscribirte ni competir. Sin embargo, **el KYC es obligatorio para cobra
 El premio puede transferirse al siguiente clasificado. Tenés 3 días para completar el KYC desde que te notificamos.
 
 **¿Qué KYC se requiere?**
-Todos los integrantes del equipo tienen que completar el KYC individualmente. Necesitás: un documento de identidad emitido por el gobierno, un formulario de declaración firmado (se entrega a los ganadores tras la notificación — imprimilo y firmalo a mano), y una selfie con tu documento. Detalles completos en [RULES Sección 7](RULES.md#7-kyc--prize-disbursement).
+Todos los integrantes del equipo tienen que completar el KYC individualmente. Necesitás: un documento de identidad emitido por el gobierno, un formulario de declaración firmado (se entrega a los ganadores tras la notificación — imprimilo y firmalo a mano), y una selfie con tu documento. Detalles completos en [RULES Sección 7](RULES.md#7-kyc-y-pago-de-premios).
 
 ---
 
@@ -144,4 +145,4 @@ Open source — MIT, Apache 2.0 o equivalente.
 
 ---
 
-*¿No encontrás tu pregunta? Unite a nuestro [Discord](https://discord.gg/arkiv) y preguntá.
+*¿No encontrás tu pregunta? Unite a nuestro [Discord](https://discord.gg/arkiv) y preguntá.*

@@ -1,6 +1,6 @@
-# Arkiv × Puna Tech Hackathon — Cursor Rules
+# Arkiv × PunaTech Hackathon — Cursor Rules
 
-This repo contains official hackathon materials for the Arkiv × Puna Tech Hackathon, a hackathon track run by Arkiv at PunaTech in collaboration with Puna Tech / SaltaDev.
+This repo contains official hackathon materials for the Arkiv × PunaTech Hackathon, a hackathon track run by Arkiv at PunaTech in collaboration with PunaTech / SaltaDev.
 
 ## Doc map
 - What is the challenge? → README.md
@@ -11,18 +11,18 @@ This repo contains official hackathon materials for the Arkiv × Puna Tech Hacka
 - Common questions → FAQ.md
 
 ## Key facts
-- Prize: $1,500 USD total — 4 ranked prizes ($600 1st · $450 2nd · $300 3rd · $150 4th).
+- Prize: $1,500 USDC total — 4 ranked prizes ($600 1st · $450 2nd · $300 3rd · $150 4th).
 - Theme: AI apps on [ARKIV].
-- Scoring: Arkiv integration depth 40%, functionality 30%, design/UX 20%, code quality 10%.
+- Scoring: Arkiv integration depth 40%, functionality 30%, design/UX 20%, code quality & docs 10%.
 - All entities expire — use "expiration dates", never "TTL".
 - Testnet: Arkiv Testnet (network ID: 60138453102).
-- SDK: @arkiv-network/sdk@0.6.8.
+- SDK: @arkiv-network/sdk@0.6.8 or later.
 
 ## Testnet config
 - HTTP RPC: https://braga.hoodi.arkiv.network/rpc
 - WebSocket RPC: wss://braga.hoodi.arkiv.network/rpc/ws
 - Standard Bridge: 0xB52b417A79c9dE21ffe221dF9a3821B7EaC60813
-- Faucet: TBC — check Discord for updates
+- Faucet: https://braga.hoodi.arkiv.network/faucet/
 
 ## Minimum requirements
 - Define PROJECT_ATTRIBUTE — unique to your project. Stamp it on every entity and query. Without it, queries leak data from other projects.
@@ -38,4 +38,4 @@ This repo contains official hackathon materials for the Arkiv × Puna Tech Hacka
 - Avoid "trustless" and "fully decentralised" — Arkiv launches with centralised sequencers.
 
 ## Support
-For Arkiv-specific issues: dedicated support channel (coming soon) on the Arkiv Discord (https://discord.gg/arkiv).
+For Arkiv-specific issues: https://discord.gg/arkiv.

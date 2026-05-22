@@ -1,10 +1,10 @@
-# AGENTS.md — Arkiv × Puna Tech Hackathon
+# AGENTS.md — Arkiv × PunaTech Hackathon
 
 Apply the root `AGENTS.md` first. This file adds hackathon-specific context and constraints.
 
 ## Purpose
 
-This repo contains the official rules, guides, and resources for the Arkiv × Puna Tech Hackathon: a hackathon track run by Arkiv at PunaTech, organised with Puna Tech / SaltaDev, 28 May 2026–30 May 2026. The top 4 ranked submissions receive prizes totalling $1,500 USD.
+This repo contains the official rules, guides, and resources for the Arkiv × PunaTech Hackathon: a hackathon track run by Arkiv at PunaTech, organised with PunaTech / SaltaDev, 28 May 2026–30 May 2026. The top 4 ranked submissions receive prizes totalling $1,500 USDC.
 
 ## Use these files
 
@@ -25,7 +25,7 @@ This repo contains the official rules, guides, and resources for the Arkiv × Pu
 - All entities expire. Use "expiration dates", never "TTL".
 - Testnet only.
 - AI tools are allowed.
-- Demo video is optional at submission and required for prize claim.
+- Demo video: Required — 2–3 min walkthrough, public URL (YouTube or Google Drive).
 - Open source is required.
 - Build window: 28 May 2026–30 May 2026.
 
@@ -39,8 +39,8 @@ Use Arkiv Testnet for all building.
 | HTTP RPC | `https://braga.hoodi.arkiv.network/rpc` |
 | WebSocket RPC | `wss://braga.hoodi.arkiv.network/rpc/ws` |
 | Standard Bridge | `0xB52b417A79c9dE21ffe221dF9a3821B7EaC60813` |
-| Faucet | TBC — check Discord for updates |
-| TS/JS SDK | `@arkiv-network/sdk@0.6.8` |
+| Faucet | https://braga.hoodi.arkiv.network/faucet/ |
+| TS/JS SDK | `@arkiv-network/sdk@0.6.8` or later |
 
 ## Minimum technical requirements
 
@@ -85,4 +85,4 @@ Every submission must:
 - Numeric attributes for range queries; string attributes for equality + glob.
 - `PROJECT_ATTRIBUTE` on every entity create and every query.
 - Batch creates via `walletClient.mutateEntities({ creates: [...] })`. Paginate reads via `result.hasNextPage()` / `result.next()`.
-- Direct Arkiv-specific issues to **dedicated support channel (coming soon)** on the Arkiv Discord.
+- Direct Arkiv-specific issues to the Arkiv Discord: https://discord.gg/arkiv.

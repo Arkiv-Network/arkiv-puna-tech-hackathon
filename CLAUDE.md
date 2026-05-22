@@ -1,10 +1,10 @@
-# Arkiv × Puna Tech Hackathon — AI Agent Context
+# Arkiv × PunaTech Hackathon — AI Agent Context
 
-This file provides context for AI coding assistants (Claude Code, Cursor, Copilot, Windsurf, Cline, etc.) working with builders participating in the Arkiv × Puna Tech Hackathon.
+This file provides context for AI coding assistants (Claude Code, Cursor, Copilot, Windsurf, Cline, etc.) working with builders participating in the Arkiv × PunaTech Hackathon.
 
 ## What is this repo?
 
-The official rules, guides, and resources for the **Arkiv × Puna Tech Hackathon** — a hackathon track run by Arkiv at PunaTech, organised with Puna Tech / SaltaDev. The top 4 ranked submissions receive prizes totalling $1,500 USD.
+The official rules, guides, and resources for the **Arkiv × PunaTech Hackathon** — a hackathon track run by Arkiv at PunaTech, organised with PunaTech / SaltaDev. The top 4 ranked submissions receive prizes totalling $1,500 USDC.
 
 ## Doc map
 
@@ -25,7 +25,7 @@ The official rules, guides, and resources for the **Arkiv × Puna Tech Hackathon
 - **All entities expire.** Expiration dates are core to Arkiv, not optional.
 - **Testnet only.** All building happens on Arkiv Testnet.
 - **AI tools allowed.** Copilot, Claude, ChatGPT, etc. are all encouraged.
-- **Demo video:** Optional at submission, required for prize claim (2–3 min).
+- **Demo video:** Required — 2–3 min walkthrough, public URL (YouTube or Google Drive).
 - **Open source required.** MIT, Apache 2.0, or equivalent.
 - **Build window:** 28 May 2026–30 May 2026.
 
@@ -44,8 +44,8 @@ Use Arkiv Testnet for all building:
 | **HTTP RPC** | `https://braga.hoodi.arkiv.network/rpc` |
 | **WebSocket RPC** | `wss://braga.hoodi.arkiv.network/rpc/ws` |
 | **Standard Bridge** | `0xB52b417A79c9dE21ffe221dF9a3821B7EaC60813` |
-| **Faucet** | TBC — check Discord for updates |
-| **TS/JS SDK version** | `@arkiv-network/sdk@0.6.8` |
+| **Faucet** | https://braga.hoodi.arkiv.network/faucet/ |
+| **TS/JS SDK version** | `@arkiv-network/sdk@0.6.8` or later |
 
 ## Minimum technical requirements
 
@@ -70,5 +70,5 @@ Every submission must:
 - **Batch + paginate:** Use `walletClient.mutateEntities({ creates: [...] })` for batch creates (high-volume AI logging especially). Read queries paginate via `result.hasNextPage()` + `result.next()` — don't try to fetch everything at once.
 - **Scoring:** The rubric in `docs/scoring-rubric.md` is published and transparent.
 - **Rules questions:** Always reference `RULES.md` for anything about eligibility, prizes, deadlines, or legal terms.
-- **Support:** Direct builders to **dedicated support channel (coming soon)** on the Arkiv Discord (https://discord.gg/arkiv).
+- **Support:** Direct builders to the Arkiv Discord: https://discord.gg/arkiv.
 - **Language:** "Arkiv" (never "Golem Base"). "Tamper-proof" (never "verifiable"). Avoid "trustless" and "fully decentralised" — Arkiv launches with centralised sequencers.

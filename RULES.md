@@ -1,4 +1,4 @@
-# [ ARKIV ] × Puna Tech — Hackathon: Reglas y Términos Oficiales
+# [ ARKIV ] × PunaTech — Hackathon: Reglas y Términos Oficiales
 
 ---
 
@@ -8,7 +8,7 @@
 
 ## 1. Descripción general
 
-El Hackathon [ ARKIV ] × Puna Tech ("Hackathon") es organizado por Golem Factory GmbH, operando bajo el nombre "Arkiv Network" ("Organizador"), en colaboración con Puna Tech ("Comunidad Organizadora").
+El Hackathon [ ARKIV ] × PunaTech ("Hackathon") es organizado por Golem Factory GmbH, operando bajo el nombre "Arkiv Network" ("Organizador"), en colaboración con PunaTech ("Comunidad Organizadora").
 
 Al enviar una propuesta, los participantes aceptan estas reglas en su totalidad.
 
@@ -16,7 +16,7 @@ Al enviar una propuesta, los participantes aceptan estas reglas en su totalidad.
 
 ## 2. Elegibilidad
 
-- Abierto a personas e equipos de todo el mundo
+- Abierto a personas y equipos de todo el mundo
 - Los participantes deben tener 18 años o más al momento de la entrega
 - No se requiere ningún pago para participar
 - Los empleados de Arkiv / Golem Network y sus familiares directos no son elegibles
@@ -56,7 +56,7 @@ Cada entrega debe incluir:
 
 ### Qué cuenta como entrega válida
 
-- Tiene que abordar una de las verticales aprobadas (o una combinación explícita)
+- Tiene que abordar la temática "Aplicaciones de IA sobre [ ARKIV ]" — las verticales son orientativas, no obligatorias
 - Tiene que usar [ ARKIV ] como la capa de datos principal
 - Tiene que ser trabajo original creado durante el período del Hackathon
 - Se permite código preexistente (librerías, frameworks, boilerplate), pero la integración con [ ARKIV ] y la lógica principal de la aplicación deben ser nuevas
@@ -66,7 +66,7 @@ Cada entrega debe incluir:
 
 - Código plagiado o copiado de otro participante
 - Entregas que no usen [ ARKIV ] como capa de datos
-- Entregas que no aborden al menos una de las verticales aprobadas
+- Entregas que no aborden la temática del track (Aplicaciones de IA sobre [ ARKIV ])
 - Código malicioso, backdoors o vulnerabilidades de seguridad introducidas intencionalmente
 - Entregas sin demo funcional
 - Entregas después del plazo
@@ -75,14 +75,14 @@ Cada entrega debe incluir:
 
 ## 5. Premios
 
-**Premio total: $1.500 USD.**
+**Premio total: $1.500 USDC.**
 
 | Puesto | Premio |
 |--------|--------|
-| 1° lugar | $600 USD |
-| 2° lugar | $450 USD |
-| 3° lugar | $300 USD |
-| 4° lugar | $150 USD |
+| 1° lugar | $600 USDC |
+| 2° lugar | $450 USDC |
+| 3° lugar | $300 USDC |
+| 4° lugar | $150 USDC |
 
 ### Condiciones del premio
 

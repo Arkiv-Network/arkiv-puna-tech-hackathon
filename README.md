@@ -1,9 +1,9 @@
 
 > **El Hackathon se desarrolla del 28 al 30 de mayo de 2026.** Unite al [Discord](https://discord.gg/arkiv), y seguí [@arkiv_network](https://x.com/arkiv_network) para el kickoff.
 
-# [ ARKIV ] × Puna Tech — Hackathon
+# [ ARKIV ] × PunaTech — Hackathon
 
-Nos sumamos a [PunaTech](https://www.punatech.ar/) con nuestra propia track. Cuatro premios — $600, $450, $300 y $150 USD — para los mejores proyectos.
+Nos sumamos a [PunaTech](https://www.punatech.ar/) con nuestra propia track. Cuatro premios — $600, $450, $300 y $150 USDC — para los mejores proyectos.
 
 ---
 
@@ -15,7 +15,7 @@ Construí aplicaciones de IA que usen [ ARKIV ] como capa de datos. Tres vertica
 - **Procedencia y auditoría de IA** — registros consultables y a prueba de manipulación de lo que un modelo dijo o hizo (útil para periodismo, compliance, debate).
 - **Capas de datos personales para IA** — perfiles y preferencias propiedad del usuario que cualquier app de IA puede leer con permiso explícito.
 
-¿Tu idea no encaja exacto en estas tres? Si combina IA con datos, queremos verla.
+¿Tu idea no encaja exacto en estas tres? Si combina IA con [ ARKIV ] como capa de datos, queremos verla.
 
 Para más info, revisá la **[Guía para builders](docs/builders-guide.md)**.
 
@@ -25,13 +25,13 @@ Para más info, revisá la **[Guía para builders](docs/builders-guide.md)**.
 
 **Lo obvio:**
 
-- **4 premios** — $600 USD (1°), $450 USD (2°), $300 USD (3°), $150 USD (4°).
+- **4 premios** — $600 USDC (1°), $450 USDC (2°), $300 USDC (3°), $150 USDC (4°).
 
 **Lo menos obvio:**
 
 - Vas a shipear un producto sobre una tecnología que la mayoría de los desarrolladores todavía no tocó.
 - El código es open source. Las mejores entregas se convierten en referencia para otros builders que construyan sobre [ ARKIV ].
-- Soporte del equipo de Arkiv durante todo el build. Unite al [Discord](https://discord.gg/arkiv)
+- Soporte del equipo de [ ARKIV ] durante todo el build. Unite al [Discord](https://discord.gg/arkiv)
 
 ---
 
@@ -64,6 +64,7 @@ Antes del **sábado 30 de mayo a las 2:00 PM (hora Argentina)**, completá los c
 2. **Video público** (YouTube o Google Drive) mostrando el proyecto funcionando
 3. **Llená el form** en [https://forms.arkiv.network/punatech26](https://forms.arkiv.network/punatech26)
 4. **Pitch en español** (puede ser el video o una presentación por separado)
+5. **Demo funcional** desplegada y accesible por URL, conectada a la testnet de [ ARKIV ]
 
 > ⚠️ **Importante:** los ganadores deberán completar un proceso de KYC (verificación de identidad) antes de recibir el premio. Esto implica enviar documentación de identidad.
 
