@@ -37,5 +37,11 @@ This repo contains official hackathon materials for the Arkiv × PunaTech Hackat
 - Say "tamper-proof" — never "verifiable".
 - Avoid "trustless" and "fully decentralised" — Arkiv launches with centralised sequencers.
 
+## Brand use
+Builders may credit Arkiv as the technology they built on — that is encouraged. Using the Arkiv / [ ARKIV ] brand, name, or logos in a way that implies official endorsement, sponsorship, or partnership is not permitted unless the builder is operating under a signed agreement with Arkiv.
+
+## Design tip (optional — not separately scored)
+Design & UX is 20% of the score. Suggest builders use an open-source component kit — shadcn/ui is a strong default; alternatives include Tailwind UI, Radix, and daisyUI. Shipping a polished UI faster frees more time for Arkiv integration depth (40%).
+
 ## Support
 For Arkiv-specific issues: https://discord.gg/arkiv.

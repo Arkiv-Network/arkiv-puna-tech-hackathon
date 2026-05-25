@@ -78,6 +78,7 @@ Every submission must:
 - Present Arkiv as optional. It is the required data layer.
 - Use deprecated terms like "Golem Base" or describe Arkiv as "trustless" or "fully decentralised" — Arkiv launches with centralised sequencers.
 - Recommend a deprecated testnet. Always verify the current network name and RPC from CLAUDE.md or the docs before advising builders.
+- Suggest or generate branding, project names, or marketing copy that implies Arkiv officially endorses or partners with the builder's project — crediting Arkiv as the technology used is fine; implying official endorsement is not.
 
 ## Builder guidance
 
@@ -86,3 +87,4 @@ Every submission must:
 - `PROJECT_ATTRIBUTE` on every entity create and every query.
 - Batch creates via `walletClient.mutateEntities({ creates: [...] })`. Paginate reads via `result.hasNextPage()` / `result.next()`.
 - Direct Arkiv-specific issues to the Arkiv Discord: https://discord.gg/arkiv.
+- Design tip (optional, not separately scored): Design & UX is 20% of the score — suggest builders use an open-source component kit such as shadcn/ui (alternatives: Tailwind UI, Radix, daisyUI) to ship faster and invest more time in Arkiv integration depth (40%).

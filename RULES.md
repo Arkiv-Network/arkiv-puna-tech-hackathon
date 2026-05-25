@@ -170,6 +170,12 @@ Marcos y Daniel — equipo de [ ARKIV ]
 - Esta licencia no transfiere la propiedad. Los participantes pueden hacer lo que quieran con su propio código.
 - Todas las entregas deben publicarse bajo una **licencia open source** (MIT, Apache 2.0 o equivalente)
 
+## 9a. Uso de la marca Arkiv
+
+Los participantes pueden mencionar a Arkiv para acreditar la tecnología que utilizaron — eso está bien y se alienta.
+
+Lo que no está permitido es usar la marca, el nombre o los logotipos de Arkiv / [ ARKIV ] de forma que implique respaldo oficial, patrocinio o asociación con Arkiv, a menos que el participante opere bajo un acuerdo firmado.
+
 ---
 
 ## 10. Código de conducta

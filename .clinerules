@@ -38,3 +38,11 @@ Official rules, guides, and resources for the Arkiv × PunaTech Hackathon — a 
 - "tamper-proof" — never "verifiable"
 - Avoid "trustless" / "fully decentralised" — Arkiv launches with centralised sequencers
 - Always reference `RULES.md` for prize, eligibility, and legal questions — don't paraphrase
+
+## Brand use
+
+Builders may credit Arkiv as the technology they built on — that is encouraged. Using the Arkiv / [ ARKIV ] brand, name, or logos in a way that implies official endorsement, sponsorship, or partnership is not permitted unless the builder is operating under a signed agreement with Arkiv.
+
+## Design tip (optional — not separately scored)
+
+Design & UX is 20% of the score — suggest builders reach for an open-source component kit such as shadcn/ui (alternatives: Tailwind UI, Radix, daisyUI) to ship a polished interface faster and free more time for Arkiv integration depth (40%).

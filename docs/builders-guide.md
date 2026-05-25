@@ -97,6 +97,20 @@ Los premios se pagan en USDC. **El KYC es obligatorio para todos los integrantes
 
 ---
 
+## Consejo de diseño
+
+Design & UX es el 20% del puntaje — llegá a un kit de componentes open source como **shadcn/ui** (también podés considerar Tailwind UI, Radix o daisyUI) para entregar una interfaz pulida más rápido y dedicar más tiempo a la integración con [ ARKIV ] (40%).
+
+---
+
+## Uso de la marca Arkiv
+
+Podés mencionar a [ ARKIV ] para acreditar la tecnología que usaste — eso está bien y se alienta.
+
+Lo que no está permitido es usar la marca, el nombre o los logos de Arkiv / [ ARKIV ] de forma que implique respaldo oficial, patrocinio o asociación, a menos que operes bajo un acuerdo firmado.
+
+---
+
 ## Para empezar
 
 1. **Elegí tu idea** dentro del track de IA sobre [ ARKIV ]

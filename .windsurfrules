@@ -40,6 +40,11 @@ This repo contains official hackathon materials for the **Arkiv × PunaTech Hack
 - Present Arkiv as optional
 - Use "trustless" or "fully decentralised" — Arkiv launches with centralised sequencers
 - Paraphrase legal language from `RULES.md`
+- Use the Arkiv / [ ARKIV ] brand, name, or logos in a way that implies official endorsement, sponsorship, or partnership — crediting Arkiv as the technology used is fine; implying an official relationship is not
+
+## Design tip (optional — not separately scored)
+
+Design & UX is 20% of the score — suggest builders reach for an open-source component kit such as shadcn/ui (alternatives: Tailwind UI, Radix, daisyUI) to ship a polished interface faster, freeing more time for Arkiv integration depth (40%).
 
 ## Technical checklist for valid submissions
 
