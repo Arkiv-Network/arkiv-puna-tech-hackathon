@@ -1,3 +1,5 @@
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/ab537617-4b3e-45ab-8f29-0bf2d55d18cb" />
+
 
 > **El Hackathon se desarrolla del 28 al 30 de mayo de 2026.** Unite al [Discord](https://discord.gg/arkiv), y seguí [@arkiv_network](https://x.com/arkiv_network) para el kickoff.
 
