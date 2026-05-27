@@ -131,7 +131,7 @@ El formulario de declaración se enviará directamente a los ganadores después 
 
 ### Manejo de datos de KYC
 
-- Los documentos de KYC se remiten a la oficina de cumplimiento del Organizador para su procesamiento
+- Los documentos de KYC se remiten al departamento de operaciones del Organizador para su procesamiento
 - Los documentos de identidad y formularios firmados se conservan según los requisitos de cumplimiento del Organizador
 - Los datos de KYC no se compartirán con terceros, salvo cuando lo exija la ley
 
