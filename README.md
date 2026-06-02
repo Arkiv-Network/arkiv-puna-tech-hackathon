@@ -1,11 +1,42 @@
 <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/ab537617-4b3e-45ab-8f29-0bf2d55d18cb" />
 
 
-> **El Hackathon se desarrolla del 28 al 30 de mayo de 2026.** Unite al [Discord](https://discord.gg/arkiv), y seguí [@arkiv_network](https://x.com/arkiv_network) para el kickoff.
+> [!IMPORTANT]
+> **Este Hackathon ha concluido.** Se recibieron 18 proyectos. Gracias a todos los que buildearon con nosotros. Conocé a los [ganadores](#ganadores) y [todos los proyectos](#lista-completa-de-proyectos) más abajo.
 
 # [ ARKIV ] × PunaTech — Hackathon
 
 Nos sumamos a [PunaTech](https://www.punatech.ar/) con nuestra propia track. Cuatro premios — $600, $450, $300 y $150 USDC — para los mejores proyectos.
+
+---
+
+## Ganadores
+
+Cuatro proyectos premiados, evaluados por el equipo de [ ARKIV ] contra el [rubric publicado](docs/scoring-rubric.md).
+
+### 🥇 Susurro — $600 USDC
+
+Un coach de bienestar con voz cuya memoria vive cifrada en Arkiv y es del usuario, no de la plataforma. El cifrado AES-256-GCM ocurre en el navegador con la firma de la wallet, y el acceso al coach se vence solo vía `expiresIn` nativo de Arkiv — la expiración *es* el control de acceso, sin cron ni background jobs.
+
+[GitHub](https://github.com/artugrande/susurro) · [Demo](https://susurro-nine.vercel.app/) · [Video](https://youtu.be/7JWos7N7RuA)
+
+### 🥈 Licita Verify — $450 USDC
+
+Una bitácora inalterable y consultable de cada licitación pública, anclada en Arkiv. Registra cada hito desde la convocatoria hasta la adjudicación, con consultas en lenguaje natural vía IA y un bot de Telegram autónomo conectado por MCP.
+
+[GitHub](https://github.com/hallzyx/licita-verify) · [Demo](https://licita-verify.arroz.dev) · [Video](https://youtu.be/HaGdi7J3W64)
+
+### 🥉 NotarIA — $300 USDC
+
+Un escribano digital para decisiones médicas con IA. Asegura la inalterabilidad de prompts e historiales con hashes criptográficos en Arkiv —sin subir PII— y transfiere la propiedad soberana del registro a la wallet del médico vía `changeOwnership`.
+
+[GitHub](https://github.com/ignaw05/notaria-arkiv) · [Demo](https://notaria-arkiv.vercel.app) · [Video](https://youtu.be/fHvbg9qbpq8)
+
+### 4° Mediation Rooms — $150 USDC
+
+Una capa plug-and-play que agrega una ventana temporal de reclamo antes de ejecutar acciones críticas. Las partes suben evidencia y abren disputas; Arkiv guarda los datos con expiración programada (48h para reclamos, 90 días para evidencia) mientras el sistema externo solo consulta si puede ejecutar o debe bloquear la acción.
+
+[GitHub](https://github.com/TheMrMatt/mediation-rooms) · [Demo](https://mediation-rooms.vercel.app/) · [Video](https://www.loom.com/share/51f8bdde84ae421bb47ff75d4f42e024)
 
 ---
 
@@ -96,4 +127,31 @@ Antes del **sábado 30 de mayo a las 2:00 PM (hora Argentina)**, completá los c
 | :------------------------ | :------------------------------------------------------------------------------- |
 | **Formulario de entrega** | [https://forms.arkiv.network/punatech26](https://forms.arkiv.network/punatech26) |
 | **Discord**               | [Uníte al servidor](https://discord.gg/arkiv)                                    |
+
+---
+
+## Lista Completa de Proyectos
+
+18 proyectos shipearon sobre [ ARKIV ]. Ganadores marcados con ★.
+
+| Proyecto | Código | Demo |
+| :------- | :----- | :--- |
+| ★ **Susurro** | [GitHub](https://github.com/artugrande/susurro) | [Demo](https://susurro-nine.vercel.app/) |
+| ★ **Licita Verify** | [GitHub](https://github.com/hallzyx/licita-verify) | [Demo](https://licita-verify.arroz.dev) |
+| ★ **NotarIA** | [GitHub](https://github.com/ignaw05/notaria-arkiv) | [Demo](https://notaria-arkiv.vercel.app) |
+| ★ **Mediation Rooms** | [GitHub](https://github.com/TheMrMatt/mediation-rooms) | [Demo](https://mediation-rooms.vercel.app/) |
+| AeroTrack Sentinel | [GitHub](https://github.com/gabriel-alejandropereagarcia/aerotrack-sentinel) | [Demo](https://aerotrack-sentinel.vercel.app/) |
+| Arkiv Notes | [GitHub](https://github.com/melyteo/arkiv-notes-mvp) | [Demo](https://arkiv-notes-mvp.vercel.app/) |
+| ArkivLog | [GitHub](https://github.com/ivantaddei/arkivlog) | [Demo](https://demo-iota-mocha-51.vercel.app/) |
+| Climate Crisis Dashboard | [GitHub](https://github.com/Marceloalvarez12/climate-crisis-dashboard) | [Demo](https://climate-crisis-dashboard.vercel.app/) |
+| FerIA Salta | [GitHub](https://github.com/Apunados-punatechteam/ferIA-Salta) | [Demo](https://test.saltia.com.ar/) |
+| InforMed | [GitHub](https://github.com/Jehp23/InforMed) | [Demo](https://infor-med.vercel.app/) |
+| ManoLocal | [GitHub](https://github.com/santiemanuel/manolocal) | [Demo](https://manolocal.code-hello.com/) |
+| MemoryForge AI | [GitHub](https://github.com/blastonyz/arkiv-punatech) | [Demo](https://arkiv-punatech.vercel.app/) |
+| Norte Vivo | [GitHub](https://github.com/facutech3-design/nortevivo) | — |
+| PAWSI AI | [GitHub](https://github.com/MaritoSAS/pawsi-ai) | — |
+| TruthStamp | [GitHub](https://github.com/laupro10-ctrl/TruthStamp-Hookia) | [Demo](https://truthstamp.netlify.app/) |
+| VendorPass | [GitHub](https://github.com/pgallar/vendor-pass) | — |
+| ViArkiv | [GitHub](https://github.com/Antony27c/Arikiv) | [Demo](https://arikiv-production.up.railway.app/) |
+| vialibre | [GitHub](https://github.com/veneciaedith/vialibre1) | [Demo](https://vialibre.vercel.app/) |
 
